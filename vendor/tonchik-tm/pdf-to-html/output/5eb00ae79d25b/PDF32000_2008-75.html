@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 75</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft06{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page75-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008075.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:821px;white-space:nowrap" class="ft02">67</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:135px;white-space:nowrap" class="ft05">dictionary. When referenced&#160;from the&#160;<b>Crypt</b>&#160;filter&#160;decode&#160;parameter&#160;dictionary&#160;of a stream&#160;object (see&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-46.html">Table&#160;14</a>), the 4 bytes of&#160;permissions shall be absent from&#160;the&#160;enveloped&#160;data.</p>
+<p style="position:absolute;top:179px;left:106px;white-space:nowrap" class="ft05">The algorithms&#160;that shall be&#160;used&#160;to&#160;encrypt the&#160;enveloped&#160;data&#160;in&#160;the PKCS#7&#160;object are: RC4 with key&#160;<br/>lengths&#160;up to 256-bits, DES,&#160;Triple&#160;DES,&#160;RC2 with key lengths up&#160;to&#160;128 bits, 128-bit&#160;AES in Cipher Block&#160;<br/>Chaining&#160;(CBC)&#160;mode, 192-bit AES in&#160;CBC&#160;mode, 256-bit AES in CBC mode.&#160;The&#160;PKCS#7 specification is in&#160;<br/>Internet RFC&#160;2315,&#160;<i>PKCS #7:&#160;Cryptographic Message&#160;Syntax,&#160;Version&#160;1.5&#160;</i>(see the<a href="src/../output/5eb00ae79d25b/PDF32000_2008-753.html">&#160;Bibliography).&#160;</a></p>
+<p style="position:absolute;top:266px;left:106px;white-space:nowrap" class="ft05">The&#160;encryption key used&#160;by&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-66.html">&#34;Algorithm 1: Encryption of data&#160;using the RC4 or AES algorithms&#34;</a>&#160;shall&#160;be&#160;<br/>calculated&#160;by&#160;means of an SHA-1&#160;message digest&#160;operation that&#160;digests the following&#160;data,&#160;in order:</p>
+<p style="position:absolute;top:319px;left:106px;white-space:nowrap" class="ft02">a)</p>
+<p style="position:absolute;top:319px;left:135px;white-space:nowrap" class="ft02">The 20&#160;bytes of&#160;seed</p>
+<p style="position:absolute;top:354px;left:106px;white-space:nowrap" class="ft02">b)</p>
+<p style="position:absolute;top:354px;left:135px;white-space:nowrap" class="ft05">The&#160;bytes of&#160;each item&#160;in the&#160;<b>Recipients</b>&#160;array of&#160;PKCS#7 objects in the&#160;order&#160;in which they appear&#160;in the&#160;<br/>array</p>
+<p style="position:absolute;top:407px;left:106px;white-space:nowrap" class="ft02">c)</p>
+<p style="position:absolute;top:407px;left:135px;white-space:nowrap" class="ft05">4 bytes&#160;with the value 0xFF if&#160;the&#160;key being&#160;generated&#160;is intended&#160;for&#160;use in document-level&#160;encryption&#160;<br/>and&#160;the document metadata&#160;is being&#160;left&#160;as&#160;plaintext&#160;</p>
+<p style="position:absolute;top:459px;left:106px;white-space:nowrap" class="ft05">The first&#160;<i>n</i>/8 bytes of the resulting digest&#160;shall&#160;be&#160;used&#160;as&#160;the encryption&#160;key,&#160;where&#160;<i>n</i>&#160;is the bit length of&#160;the&#160;<br/>encryption key.&#160;</p>
+<p style="position:absolute;top:516px;left:106px;white-space:nowrap" class="ft03"><b>7.6.5</b></p>
+<p style="position:absolute;top:516px;left:170px;white-space:nowrap" class="ft03"><b>Crypt&#160;Filters</b></p>
+<p style="position:absolute;top:551px;left:106px;white-space:nowrap" class="ft05">PDF 1.5 introduces&#160;<i>crypt&#160;filters,</i>&#160;which provide&#160;finer granularity control&#160;of&#160;encryption&#160;within&#160;a&#160;PDF file.&#160;The&#160;use&#160;<br/>of&#160;crypt filters involves&#160;the following structures:</p>
+<p style="position:absolute;top:604px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:604px;left:135px;white-space:nowrap" class="ft05">The&#160;encryption&#160;dictionary&#160;(see<a href="src/../output/5eb00ae79d25b/PDF32000_2008-64.html">&#160;Table&#160;20)&#160;</a>contains entries&#160;that enumerate the crypt&#160;filters in&#160;the&#160;document&#160;<br/>(<b>CF</b>) and&#160;specify&#160;which&#160;ones&#160;are used&#160;by&#160;default&#160;to&#160;decrypt all the streams&#160;(<b>StmF</b>)&#160;and strings (<b>StrF</b>) in the&#160;<br/>document.&#160;In&#160;addition, the&#160;value&#160;of&#160;the&#160;<b>V</b>&#160;entry shall be&#160;4 to&#160;use&#160;crypt&#160;filters.</p>
+<p style="position:absolute;top:674px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:674px;left:135px;white-space:nowrap" class="ft06">Each crypt&#160;filter&#160;specified in the&#160;<b>CF</b>&#160;entry of&#160;the encryption&#160;dictionary&#160;shall be represented by a&#160;<i>crypt filter&#160;<br/>dictionary</i>, whose entries are&#160;shown in&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-76.html">Table&#160;25</a>.</p>
+<p style="position:absolute;top:726px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:726px;left:135px;white-space:nowrap" class="ft05">A&#160;stream&#160;filter&#160;type,&#160;the&#160;<b>Crypt</b>&#160;filter&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-46.html">7.4.10, &#34;Crypt&#160;Filter&#34;</a>) can be specified for&#160;any&#160;stream&#160;in&#160;the&#160;<br/>document to override&#160;the default&#160;filter&#160;for&#160;streams.&#160;A conforming&#160;reader&#160;shall&#160;provide&#160;a&#160;standard&#160;<b>Identity<br/></b>filter&#160;which&#160;shall&#160;pass the data&#160;unchanged (see<a href="src/../output/5eb00ae79d25b/PDF32000_2008-77.html">&#160;Table&#160;26) to allow s</a>pecific&#160;streams,&#160;such as&#160;document&#160;<br/>metadata,&#160;to&#160;be&#160;unencrypted&#160;in&#160;an&#160;otherwise&#160;encrypted&#160;document. The&#160;stream’s&#160;<b>DecodeParms</b>&#160;entry&#160;shall&#160;<br/>contain a&#160;<b>Crypt</b>&#160;filter&#160;decode&#160;parameters&#160;dictionary&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-46.html">Table&#160;14)</a>&#160;whose&#160;<b>Name</b>&#160;entry&#160;specifies&#160;the&#160;<br/>particular&#160;crypt&#160;filter&#160;to be&#160;used (if missing,&#160;<b>Identity</b>&#160;is used). Different streams&#160;may specify different crypt&#160;<br/>filters.&#160;</p>
+<p style="position:absolute;top:865px;left:106px;white-space:nowrap" class="ft05">Authorization to decrypt&#160;a&#160;stream shall always be obtained before&#160;the&#160;stream can be&#160;accessed. This typically&#160;<br/>occurs when&#160;the document is opened,&#160;as&#160;specified by&#160;a value&#160;of&#160;<b>DocOpen&#160;</b>for the&#160;<b>AuthEvent&#160;</b>entry&#160;in the crypt&#160;<br/>filter&#160;dictionary. Conforming&#160;readers and security handlers shall treat any attempt&#160;to&#160;access&#160;a stream for which&#160;<br/>authorization&#160;has failed as an&#160;error.&#160;<b>AuthEvent</b>&#160;can also be&#160;<b>EFOpen</b>, which indicates&#160;the&#160;presence&#160;of&#160;an&#160;<br/>embedded&#160;file&#160;that&#160;is encrypted with a&#160;crypt filter&#160;that&#160;may&#160;be&#160;different from&#160;the&#160;crypt filters used&#160;by&#160;default to&#160;<br/>encrypt&#160;strings and&#160;streams in&#160;the&#160;document.&#160;</p>
+<p style="position:absolute;top:986px;left:106px;white-space:nowrap" class="ft05">In the file&#160;specification dictionary&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-110.html">7.11.3, &#34;File Specification&#160;Dictionaries&#34;), related&#160;</a>files (<b>RF</b>) shall use the&#160;<br/>same crypt filter&#160;as the embedded&#160;file (<b>EF</b>).</p>
+</div>
+</body>
+</html>

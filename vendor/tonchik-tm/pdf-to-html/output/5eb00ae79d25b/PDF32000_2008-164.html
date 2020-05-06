@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 164</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:11px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;font-family:Times;color:#000000;}
+	.ft07{font-size:8px;font-family:Times;color:#000000;}
+	.ft08{font-size:11px;font-family:Times;color:#000000;}
+	.ft09{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft010{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft011{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft012{font-size:11px;line-height:19px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page164-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008164.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">156</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:127px;left:55px;white-space:nowrap" class="ft03"><b>8.6.6.2</b></p>
+<p style="position:absolute;top:127px;left:119px;white-space:nowrap" class="ft03"><b>Pattern&#160;Colour&#160;Spaces</b></p>
+<p style="position:absolute;top:162px;left:55px;white-space:nowrap" class="ft09">A&#160;&#160;<b>Pattern</b>&#160;colour&#160;space&#160;<i>(PDF&#160;1.2)</i>&#160;specifies&#160;that an&#160;area is&#160;to be painted&#160;with a&#160;<i>pattern</i>&#160;rather than&#160;a single&#160;<br/>colour.&#160;The pattern&#160;shall be&#160;either&#160;a&#160;<i>tiling pattern</i>&#160;(type<b>&#160;&#160;</b>1) or&#160;a&#160;<i>shading pattern</i>&#160;(type<b>&#160;&#160;</b>2).&#160;&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-181.html">8.7,&#160;&#34;Patterns&#34;</a>,&#160;<br/>discusses&#160;patterns in detail.&#160;</p>
+<p style="position:absolute;top:236px;left:55px;white-space:nowrap" class="ft03"><b>8.6.6.3</b></p>
+<p style="position:absolute;top:236px;left:119px;white-space:nowrap" class="ft03"><b>Indexed Colour&#160;Spaces</b></p>
+<p style="position:absolute;top:272px;left:55px;white-space:nowrap" class="ft09">An&#160;<b>Indexed</b>&#160;colour&#160;space specifies that an&#160;area&#160;is to&#160;be painted using&#160;a&#160;<i>colour map</i>&#160;or&#160;<i>colour&#160;table</i>&#160;of arbitrary&#160;<br/>colours in some other space.&#160;A conforming&#160;reader&#160;shall treat each sample&#160;value as&#160;an&#160;index into&#160;the&#160;colour&#160;<br/>table and shall use the&#160;colour&#160;value&#160;it finds there. This technique&#160;can considerably reduce&#160;the amount of data&#160;<br/>required&#160;to&#160;represent a sampled image.&#160;</p>
+<p style="position:absolute;top:359px;left:55px;white-space:nowrap" class="ft01">An&#160;<b>Indexed</b>&#160;colour&#160;space shall be&#160;defined&#160;by a four-element&#160;array:&#160;</p>
+<p style="position:absolute;top:394px;left:84px;white-space:nowrap" class="ft01">[&#160;/Indexed&#160;&#160;<i>base</i>&#160;&#160;<i>hival</i>&#160;&#160;<i>lookup</i>&#160;]</p>
+<p style="position:absolute;top:428px;left:55px;white-space:nowrap" class="ft09">The first element shall be the&#160;colour&#160;space family name&#160;<b>Indexed</b>.&#160;The remaining elements&#160;shall be&#160;parameters&#160;<br/>that&#160;an&#160;<b>Indexed</b>&#160;colour&#160;space&#160;requires; their&#160;meanings&#160;are&#160;discussed below.&#160;Setting the&#160;current stroking&#160;or&#160;<br/>nonstroking&#160;colour&#160;space&#160;to&#160;an&#160;<b>Indexed</b>&#160;colour space&#160;shall initialize the corresponding&#160;current colour&#160;to&#160;0.&#160;</p>
+<p style="position:absolute;top:498px;left:55px;white-space:nowrap" class="ft09">The&#160;<i>base</i>&#160;parameter&#160;shall&#160;be&#160;an array or&#160;name&#160;that identifies&#160;the&#160;<i>base colour&#160;space</i>&#160;in&#160;which&#160;the values in the&#160;<br/>colour&#160;table&#160;are to&#160;be&#160;interpreted. It shall be&#160;any&#160;device&#160;or&#160;CIE-based colour&#160;space or&#160;<i>(PDF 1.3)</i>&#160;a&#160;<b>Separation<br/></b>or&#160;&#160;<b>DeviceN</b>&#160;space, but shall not&#160;be&#160;a&#160;<b>Pattern</b>&#160;space or&#160;another&#160;<b>Indexed</b>&#160;space.&#160;If the&#160;base colour&#160;space is&#160;<br/><b>DeviceRGB</b>, the values in&#160;the colour&#160;table shall be&#160;interpreted&#160;as red, green, and blue&#160;components; if the&#160;base&#160;<br/>colour&#160;space&#160;is a&#160;CIE-based&#160;<i>ABC</i>&#160;space such&#160;as a&#160;<b>CalRGB</b>&#160;or&#160;<b>Lab</b>&#160;space,&#160;the&#160;values&#160;shall be interpreted as&#160;<i>A</i>,&#160;<br/><i>B</i>, and&#160;<i>C</i>&#160;components.&#160;</p>
+<p style="position:absolute;top:620px;left:55px;white-space:nowrap" class="ft09">The&#160;<i>hival</i>&#160;parameter&#160;shall be an&#160;integer that&#160;specifies&#160;the maximum valid index&#160;value.&#160;The colour&#160;table&#160;shall be&#160;<br/>indexed by&#160;integers in the range 0 to&#160;<i>hival</i>.&#160;<i>hival</i>&#160;shall&#160;be&#160;no&#160;greater than&#160;255, which is&#160;the integer required&#160;to&#160;<br/>index a table&#160;with 8-bit index&#160;values.&#160;</p>
+<p style="position:absolute;top:689px;left:55px;white-space:nowrap" class="ft09">The colour&#160;table shall be&#160;defined&#160;by the&#160;<i>lookup</i>&#160;parameter,&#160;which may be either&#160;a&#160;stream or&#160;<i>(PDF 1.2)</i>&#160;a&#160;byte&#160;<br/>string. It shall&#160;provide the&#160;mapping&#160;between index&#160;values&#160;and&#160;the corresponding colours&#160;in&#160;the base&#160;colour&#160;<br/>space.&#160;</p>
+<p style="position:absolute;top:759px;left:55px;white-space:nowrap" class="ft09">The colour&#160;table&#160;data&#160;shall be&#160;<i>m</i>&#160;¥&#160;(<i>hival</i>&#160;+&#160;1)&#160;bytes long, where&#160;<i>m</i>&#160;is the number&#160;of colour&#160;components in the&#160;<br/>base colour&#160;space.&#160;Each byte shall be&#160;an&#160;unsigned integer in&#160;the&#160;range&#160;0&#160;to&#160;255 that&#160;shall be&#160;scaled&#160;to the&#160;<br/>range of the&#160;corresponding&#160;colour&#160;component in the base&#160;colour&#160;space;&#160;that&#160;is, 0&#160;corresponds to&#160;the&#160;minimum&#160;<br/>value in the range for that component,&#160;and 255 corresponds to the maximum.&#160;</p>
+<p style="position:absolute;top:846px;left:55px;white-space:nowrap" class="ft01">The colour&#160;components&#160;for each&#160;entry in the table shall appear consecutively in the string&#160;or stream.&#160;</p>
+<p style="position:absolute;top:881px;left:55px;white-space:nowrap" class="ft05">EXAMPLE&#160;1</p>
+<p style="position:absolute;top:881px;left:161px;white-space:nowrap" class="ft011">If the base colour space is&#160;<b>DeviceRGB</b>&#160;and the&#160;indexed colour space contains two colours, the&#160;order of&#160;<br/>bytes in&#160;the string or stream is R</p>
+<p style="position:absolute;top:904px;left:364px;white-space:nowrap" class="ft07">0</p>
+<p style="position:absolute;top:897px;left:370px;white-space:nowrap" class="ft05">&#160;&#160;G</p>
+<p style="position:absolute;top:904px;left:388px;white-space:nowrap" class="ft07">0</p>
+<p style="position:absolute;top:897px;left:394px;white-space:nowrap" class="ft05">&#160;&#160;B</p>
+<p style="position:absolute;top:904px;left:411px;white-space:nowrap" class="ft07">0</p>
+<p style="position:absolute;top:897px;left:417px;white-space:nowrap" class="ft05">&#160;&#160;R</p>
+<p style="position:absolute;top:904px;left:434px;white-space:nowrap" class="ft07">1</p>
+<p style="position:absolute;top:897px;left:440px;white-space:nowrap" class="ft05">&#160;&#160;G</p>
+<p style="position:absolute;top:904px;left:458px;white-space:nowrap" class="ft07">1</p>
+<p style="position:absolute;top:897px;left:464px;white-space:nowrap" class="ft05">&#160;&#160;B</p>
+<p style="position:absolute;top:904px;left:481px;white-space:nowrap" class="ft07">1</p>
+<p style="position:absolute;top:897px;left:487px;white-space:nowrap" class="ft05">&#160;, where&#160;letters&#160;denote&#160;the&#160;colour&#160;component and&#160;</p>
+<p style="position:absolute;top:917px;left:162px;white-space:nowrap" class="ft05">numeric&#160;subscripts&#160;denote the table entry.&#160;</p>
+<p style="position:absolute;top:950px;left:55px;white-space:nowrap" class="ft05">EXAMPLE&#160;1</p>
+<p style="position:absolute;top:950px;left:161px;white-space:nowrap" class="ft011">The following&#160;illustrates the specification of&#160;an&#160;Indexed&#160;colour space&#160;that maps&#160;8-bit index values&#160;to&#160;<br/>three-component colour values&#160;in&#160;the&#160;<b>DeviceRGB</b>&#160;colour&#160;space.&#160;</p>
+<p style="position:absolute;top:962px;left:548px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:978px;left:162px;white-space:nowrap" class="ft012">&#160;<br/>[&#160;&#160;/Indexed</p>
+<p style="position:absolute;top:994px;left:224px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1013px;left:204px;white-space:nowrap" class="ft05">/DeviceRGB</p>
+<p style="position:absolute;top:1009px;left:278px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1029px;left:204px;white-space:nowrap" class="ft05">255</p>
+<p style="position:absolute;top:1025px;left:227px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1045px;left:204px;white-space:nowrap" class="ft05">&lt;&#160;000000&#160;&#160;FF0000&#160;&#160;00FF00&#160;&#160;0000FF&#160;&#160;B57342&#160;&#160;…&#160;&gt;</p>
+<p style="position:absolute;top:1041px;left:504px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1061px;left:162px;white-space:nowrap" class="ft05">]</p>
+<p style="position:absolute;top:1057px;left:165px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1072px;left:162px;white-space:nowrap" class="ft011">&#160;<br/>The example&#160;shows only the first five&#160;colour values&#160;in&#160;the&#160;<i>lookup</i>&#160;string; in all,&#160;there should be 256&#160;colour&#160;<br/>values and&#160;the string&#160;should&#160;be 768&#160;bytes long. Having established this&#160;colour&#160;space,&#160;the program&#160;can&#160;<br/>now&#160;specify colours as&#160;single-component values&#160;in&#160;the&#160;range 0&#160;to&#160;255. For&#160;example,&#160;a colour value&#160;of 4&#160;<br/>selects an&#160;<i>RGB</i>&#160;colour whose components are coded as&#160;the&#160;hexadecimal integers B5, 73, and 42.&#160;</p>
+</div>
+</body>
+</html>

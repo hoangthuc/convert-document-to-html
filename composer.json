@@ -1,0 +1,7 @@
+{
+    "tonchik-tm/pdf-to-html":"~1",
+    "require": {
+        "tonchik-tm/pdf-to-html": "~1",
+        "phpoffice/phpword": "^0.17.0"
+    }
+}

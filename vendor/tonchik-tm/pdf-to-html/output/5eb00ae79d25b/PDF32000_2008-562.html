@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 562</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:11px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft08{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft09{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page562-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008562.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">554</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:127px;left:55px;white-space:nowrap" class="ft03"><b>14.6.2</b></p>
+<p style="position:absolute;top:127px;left:119px;white-space:nowrap" class="ft03"><b>Property&#160;Lists</b></p>
+<p style="position:absolute;top:162px;left:55px;white-space:nowrap" class="ft07">The marked-content operators&#160;<b>DP</b>&#160;and&#160;<b>BDC</b>&#160;associate a&#160;<i>property list</i>&#160;with&#160;a marked-content element within a&#160;<br/>content stream.&#160;The property list&#160;is&#160;a&#160;dictionary&#160;containing&#160;private&#160;information&#160;meaningful&#160;to&#160;the conforming&#160;<br/>writer&#160;creating&#160;the&#160;marked&#160;content. Conforming&#160;products&#160;should&#160;use&#160;the dictionary&#160;entries&#160;in a consistent way;&#160;<br/>the&#160;values&#160;associated&#160;with&#160;a&#160;given&#160;key should&#160;always&#160;be&#160;of&#160;the&#160;same&#160;type&#160;(or&#160;small set&#160;of&#160;types).&#160;</p>
+<p style="position:absolute;top:249px;left:55px;white-space:nowrap" class="ft08">If all of the values in a property list dictionary are&#160;direct objects, the dictionary&#160;may be&#160;written&#160;inline in the&#160;<br/>content stream&#160;as&#160;a&#160;direct&#160;object. If any of the values&#160;are indirect references&#160;to&#160;objects outside&#160;the&#160;content&#160;<br/>stream, the&#160;property list dictionary&#160;shall&#160;be&#160;defined&#160;as a&#160;named&#160;resource&#160;in the&#160;<b>Properties</b>&#160;subdictionary of&#160;the&#160;<br/>current resource&#160;dictionary (see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-90.html">7.8.3, “Resource Dictionaries”)</a>&#160;and&#160;referenced&#160;by&#160;name&#160;as the&#160;<i>properties<br/></i>operand&#160;of&#160;the&#160;<b>DP</b>&#160;or&#160;<b>BDC</b>&#160;operator.&#160;</p>
+<p style="position:absolute;top:358px;left:55px;white-space:nowrap" class="ft03"><b>14.6.3</b></p>
+<p style="position:absolute;top:358px;left:119px;white-space:nowrap" class="ft03"><b>Marked Content&#160;and Clipping</b></p>
+<p style="position:absolute;top:393px;left:55px;white-space:nowrap" class="ft07">Some&#160;PDF&#160;path&#160;and text objects&#160;are defined&#160;purely for&#160;their effect on&#160;the current&#160;clipping&#160;path, without&#160;the&#160;<br/>objects actually being&#160;painted&#160;on the&#160;page. This occurs&#160;when&#160;a&#160;path&#160;object is defined&#160;using&#160;the operator&#160;<br/>sequence&#160;<b>W n</b>&#160;or&#160;<b>W* n</b>&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-145.html">8.5.4, “Clipping Path Operators”) or</a>&#160;when&#160;a&#160;text object&#160;is painted in text&#160;rendering&#160;<br/>mode 7 (see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-254.html">9.3.6,&#160;“Text Rendering&#160;Mode”</a>).&#160;Such&#160;clipped,&#160;unpainted&#160;path&#160;or&#160;text objects are called&#160;<i>clipping&#160;<br/>objects</i>.&#160;When&#160;a clipping&#160;object&#160;falls within a&#160;marked-content sequence,&#160;it&#160;shall not be considered&#160;part of the&#160;<br/>sequence&#160;unless the&#160;entire&#160;sequence&#160;consists&#160;only of&#160;clipping&#160;objects. In&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-562.html">Example 1, fo</a>r instance,&#160;the marked-<br/>content sequence&#160;tagged&#160;<i>Clip</i>&#160;includes&#160;the text string&#160;(&#160;Clip&#160;me&#160;)&#160;but not the rectangular&#160;path that defines&#160;the&#160;<br/>clipping boundary.&#160;</p>
+<p style="position:absolute;top:549px;left:55px;white-space:nowrap" class="ft05">EXAMPLE 1</p>
+<p style="position:absolute;top:549px;left:162px;white-space:nowrap" class="ft05">/Clip&#160;&#160;BMC</p>
+<p style="position:absolute;top:545px;left:226px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:565px;left:183px;white-space:nowrap" class="ft05">100&#160;&#160;100&#160;&#160;10&#160;&#160;10&#160;&#160;re&#160;&#160;W&#160;&#160;n</p>
+<p style="position:absolute;top:565px;left:438px;white-space:nowrap" class="ft05">%&#160;Clipping path</p>
+<p style="position:absolute;top:561px;left:532px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:581px;left:183px;white-space:nowrap" class="ft05">(&#160;Clip&#160;me&#160;)&#160;&#160;Tj</p>
+<p style="position:absolute;top:581px;left:438px;white-space:nowrap" class="ft05">% Object&#160;to be&#160;clipped</p>
+<p style="position:absolute;top:577px;left:573px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:596px;left:162px;white-space:nowrap" class="ft05">EMC</p>
+<p style="position:absolute;top:630px;left:55px;white-space:nowrap" class="ft07">Only when&#160;a&#160;marked-content sequence&#160;consists&#160;entirely&#160;of clipping&#160;objects&#160;shall&#160;the clipping&#160;objects be&#160;<br/>considered&#160;part of the&#160;sequence.&#160;In&#160;this case, the&#160;sequence&#160;is&#160;known as&#160;a&#160;<i>marked&#160;clipping&#160;sequence</i>. Such&#160;<br/>sequences&#160;may be&#160;nested. In&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-562.html">Example 2, for inst</a>ance, multiple lines of text&#160;are&#160;used&#160;to clip a&#160;subsequent&#160;<br/>graphics object&#160;(in this case, a filled path).&#160;Each line of&#160;text shall be&#160;bracketed&#160;within a&#160;separate marked&#160;<br/>clipping sequence, tagged&#160;<i>Pgf</i>. The entire&#160;series shall be&#160;bracketed&#160;in turn&#160;by an&#160;outer&#160;marked&#160;clipping&#160;<br/>sequence, tagged&#160;<i>Clip</i>.&#160;</p>
+<p style="position:absolute;top:752px;left:55px;white-space:nowrap" class="ft05">NOTE</p>
+<p style="position:absolute;top:752px;left:132px;white-space:nowrap" class="ft09">The marked-content sequence tagged&#160;ClippedText is&#160;<i>not</i>&#160;a marked&#160;clipping&#160;sequence,&#160;since it&#160;contains&#160;a filled&#160;<br/>rectangular&#160;path&#160;that is&#160;not a&#160;clipping&#160;object. The&#160;clipping&#160;objects belonging to&#160;the Clip&#160;and Pgf sequences are&#160;<br/>therefore not&#160;considered&#160;part&#160;of&#160;the ClippedText sequence.&#160;</p>
+<p style="position:absolute;top:817px;left:55px;white-space:nowrap" class="ft05">EXAMPLE 2</p>
+<p style="position:absolute;top:817px;left:161px;white-space:nowrap" class="ft05">/ClippedText&#160;&#160;BMC</p>
+<p style="position:absolute;top:813px;left:273px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:833px;left:183px;white-space:nowrap" class="ft05">/Clip&#160;&#160;&lt;&lt;&#160;…&#160;&gt;&gt;</p>
+<p style="position:absolute;top:829px;left:264px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:848px;left:204px;white-space:nowrap" class="ft05">BDC</p>
+<p style="position:absolute;top:845px;left:232px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:864px;left:225px;white-space:nowrap" class="ft05">BT</p>
+<p style="position:absolute;top:860px;left:243px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:880px;left:247px;white-space:nowrap" class="ft05">7&#160;&#160;Tr</p>
+<p style="position:absolute;top:880px;left:438px;white-space:nowrap" class="ft05">% Begin text clip mode</p>
+<p style="position:absolute;top:876px;left:575px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:896px;left:247px;white-space:nowrap" class="ft05">/Pgf&#160;&#160;BMC</p>
+<p style="position:absolute;top:892px;left:308px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:911px;left:268px;white-space:nowrap" class="ft05">(&#160;Line&#160;1&#160;)&#160;&#160;Tj</p>
+<p style="position:absolute;top:908px;left:334px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:927px;left:247px;white-space:nowrap" class="ft05">EMC</p>
+<p style="position:absolute;top:923px;left:276px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:943px;left:247px;white-space:nowrap" class="ft05">/Pgf&#160;&#160;BMC</p>
+<p style="position:absolute;top:939px;left:308px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:959px;left:268px;white-space:nowrap" class="ft05">(&#160;Line&#160;)&#160;&#160;'</p>
+<p style="position:absolute;top:955px;left:315px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:975px;left:268px;white-space:nowrap" class="ft05">(&#160;&#160;2&#160;)&#160;&#160;Tj</p>
+<p style="position:absolute;top:971px;left:312px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:990px;left:247px;white-space:nowrap" class="ft05">EMC</p>
+<p style="position:absolute;top:986px;left:277px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1006px;left:225px;white-space:nowrap" class="ft05">ET</p>
+<p style="position:absolute;top:1006px;left:438px;white-space:nowrap" class="ft05">%&#160;Set current text clip</p>
+<p style="position:absolute;top:1002px;left:569px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1022px;left:204px;white-space:nowrap" class="ft05">EMC</p>
+<p style="position:absolute;top:1018px;left:234px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1038px;left:183px;white-space:nowrap" class="ft05">100&#160;&#160;100&#160;&#160;10&#160;&#160;10&#160;&#160;re&#160;&#160;f</p>
+<p style="position:absolute;top:1038px;left:438px;white-space:nowrap" class="ft05">%&#160;Filled&#160;path</p>
+<p style="position:absolute;top:1034px;left:516px;white-space:nowrap" class="ft05">&#160;</p>
+<p style="position:absolute;top:1053px;left:162px;white-space:nowrap" class="ft05">EMC</p>
+<p style="position:absolute;top:1087px;left:55px;white-space:nowrap" class="ft01">The precise&#160;rules&#160;governing&#160;marked&#160;clipping&#160;sequences&#160;shall be&#160;as&#160;follows:&#160;</p>
+<p style="position:absolute;top:1122px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:1122px;left:84px;white-space:nowrap" class="ft07">A&#160;&#160;<i>clipping&#160;object</i>&#160;shall&#160;be&#160;a&#160;path object ended&#160;by the operator sequence&#160;<b>W n</b>&#160;or&#160;<b>W* n</b>&#160;or a text object&#160;<br/>painted in text rendering mode 7.&#160;</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 483</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:11px;font-family:Times;color:#000000;}
+	.ft06{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:16px;font-family:Times;color:#000000;}
+	.ft08{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page483-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008483.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:813px;white-space:nowrap" class="ft02">475</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:106px;white-space:nowrap" class="ft03"><b>12.8.3.3</b></p>
+<p style="position:absolute;top:127px;left:191px;white-space:nowrap" class="ft03"><b>PKCS#7 Signatures&#160;as used in ISO&#160;32000</b></p>
+<p style="position:absolute;top:167px;left:106px;white-space:nowrap" class="ft03"><b>12.8.3.3.1</b></p>
+<p style="position:absolute;top:167px;left:191px;white-space:nowrap" class="ft03"><b>General</b></p>
+<p style="position:absolute;top:202px;left:106px;white-space:nowrap" class="ft06">When&#160;PKCS#7&#160;signatures are used, the&#160;value of&#160;<b>Contents</b>&#160;shall&#160;be&#160;a DER-encoded PKCS#7&#160;binary data&#160;<br/>object containing&#160;the&#160;signature.&#160;The&#160;PKCS#7&#160;object&#160;shall conform to RFC3852 Cryptographic Message&#160;<br/>Syntax. Different subfilters&#160;may be&#160;used&#160;and&#160;shall&#160;be&#160;registered&#160;in&#160;accordance<a href="src/../output/5eb00ae79d25b/PDF32000_2008-681.html">&#160;with&#160;Annex E.&#160;</a><b>SubFilter</b>&#160;shall&#160;<br/>take&#160;one of the following&#160;values:</p>
+<p style="position:absolute;top:289px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:289px;left:135px;white-space:nowrap" class="ft07"><b>adbe.pkcs7.detached</b>: The&#160;original signed&#160;message digest over&#160;the&#160;document’s byte&#160;range&#160;shall be&#160;<br/>incorporated&#160;as&#160;the normal PKCS#7&#160;SignedData field. No data&#160;shall be encapsulated&#160;in the&#160;PKCS#7&#160;<br/>SignedData&#160;field.</p>
+<p style="position:absolute;top:356px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:356px;left:135px;white-space:nowrap" class="ft07"><b>adbe.pkcs7.sha1</b>:&#160;The&#160;SHA1 digest of the document’s&#160;byte range&#160;shall be&#160;encapsulated&#160;in&#160;the&#160;PKCS#7&#160;<br/>SignedData&#160;field&#160;with ContentInfo&#160;of&#160;type&#160;Data.&#160;The&#160;digest of&#160;that&#160;SignedData&#160;shall be&#160;incorporated as&#160;the&#160;<br/>normal PKCS#7&#160;digest.</p>
+<p style="position:absolute;top:424px;left:106px;white-space:nowrap" class="ft06">The PKCS#7&#160;object shall conform to the PKCS#7&#160;specification in Internet&#160;RFC 2315,&#160;<i>PKCS #7: Cryptographic&#160;<br/>Message Syntax, Version&#160;1.5&#160;</i>(see&#160;th<a href="src/../output/5eb00ae79d25b/PDF32000_2008-753.html">e&#160;Bibliography). A</a>t minimum,&#160;it&#160;shall include&#160;the signer’s X.509&#160;signing&#160;<br/>certificate. This certificate shall be&#160;used&#160;to&#160;verify&#160;the&#160;signature&#160;value&#160;in&#160;<b>Contents</b>.&#160;</p>
+<p style="position:absolute;top:494px;left:106px;white-space:nowrap" class="ft02">The PKCS#7 object should contain the following:&#160;</p>
+<p style="position:absolute;top:529px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:529px;left:135px;white-space:nowrap" class="ft07">Time stamp&#160;information&#160;as an unsigned attribute&#160;<i>(PDF&#160;1.6)</i>: The timestamp token&#160;shall conform to RFC&#160;<br/>3161&#160;and shall be&#160;computed and&#160;embedded&#160;into&#160;the PKCS#7 object as&#160;described&#160;in Appendix A of RFC&#160;<br/>3161.&#160;The&#160;specific treatment&#160;of timestamps&#160;and their&#160;processing is left&#160;to the particular&#160;signature&#160;handlers&#160;<br/>to define.</p>
+<p style="position:absolute;top:613px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:613px;left:135px;white-space:nowrap" class="ft07">Revocation&#160;information&#160;as&#160;an&#160;signed&#160;attribute&#160;<i>(PDF 1.6)</i>:&#160;This attribute may&#160;include&#160;all the&#160;revocation&#160;<br/>information that&#160;is necessary to carry out&#160;revocation checks for the signer's certificate and its issuer&#160;<br/>certificates. Since&#160;revocation&#160;information&#160;is a&#160;signed&#160;attribute, it must&#160;be&#160;obtained&#160;before&#160;the&#160;computation&#160;<br/>of the&#160;digital signature.&#160;This means that&#160;the&#160;software&#160;used&#160;by the signer&#160;must&#160;be&#160;able to construct the&#160;<br/>certification&#160;path and the associated&#160;revocation&#160;information.&#160;If one of&#160;the&#160;elements&#160;cannot be&#160;obtained&#160;<br/>(e.g. no&#160;connection&#160;is possible), a&#160;signature&#160;with&#160;this&#160;attribute&#160;will&#160;not be&#160;possible.</p>
+<p style="position:absolute;top:730px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:730px;left:135px;white-space:nowrap" class="ft07"><i>(PDF&#160;1.6)</i>. This differs from&#160;the&#160;treatment when&#160;using&#160;<i>adbe.x509.rsa_sha1</i>&#160;when&#160;the certificates shall be&#160;<br/>placed in the&#160;<b>Cert</b>&#160;key&#160;of&#160;the signature dictionary as&#160;define<a href="src/../output/5eb00ae79d25b/PDF32000_2008-475.html">d in&#160;Table&#160;252</a>.</p>
+<p style="position:absolute;top:781px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:781px;left:135px;white-space:nowrap" class="ft07">One&#160;or&#160;more&#160;RFC&#160;3281 attribute certificates associated&#160;with&#160;the signer&#160;certificate&#160;<i>(PDF&#160;1.7)</i>. The specific&#160;<br/>treatment of&#160;attribute certificates&#160;and their processing is&#160;left&#160;to the&#160;particular&#160;signature handlers to&#160;define.</p>
+<p style="position:absolute;top:832px;left:106px;white-space:nowrap" class="ft05">NOTE</p>
+<p style="position:absolute;top:832px;left:183px;white-space:nowrap" class="ft05">For maximum&#160;compatibility with earlier versions,&#160;conforming&#160;writers should follow&#160;this&#160;practice.</p>
+<p style="position:absolute;top:866px;left:106px;white-space:nowrap" class="ft06">The policy of how to&#160;establish&#160;trusted identity lists&#160;to&#160;validate&#160;embedded certificates is up&#160;to&#160;the&#160;validation&#160;<br/>signature handler.&#160;</p>
+<p style="position:absolute;top:923px;left:106px;white-space:nowrap" class="ft03"><b>12.8.3.3.2</b></p>
+<p style="position:absolute;top:923px;left:191px;white-space:nowrap" class="ft03"><b>Revocation Information</b></p>
+<p style="position:absolute;top:958px;left:106px;white-space:nowrap" class="ft02">The adbe Revocation&#160;Information&#160;attribute:&#160;</p>
+<p style="position:absolute;top:993px;left:135px;white-space:nowrap" class="ft02">adbe-revocationInfoArchival OBJECT IDENTIFIER ::=&#160;</p>
+<p style="position:absolute;top:989px;left:497px;white-space:nowrap" class="ft02">&#160;</p>
+<p style="position:absolute;top:1011px;left:349px;white-space:nowrap" class="ft02">{ adbe(1.2.840.113583) acrobat(1)&#160;security(1)&#160;8 }</p>
+<p style="position:absolute;top:1046px;left:106px;white-space:nowrap" class="ft02">The&#160;value of&#160;the revocation&#160;information attribute&#160;can include any of&#160;the following&#160;data&#160;types:&#160;</p>
+<p style="position:absolute;top:1081px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:1081px;left:135px;white-space:nowrap" class="ft07">Certificate Revocation&#160;Lists&#160;(CRLs), described in&#160;RFC 3280&#160;(see the&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-753.html">Bibliography</a>):&#160;CRLs&#160;are&#160;generally&#160;<br/>large and therefore should not be&#160;embedded&#160;in&#160;the&#160;PKCS#7&#160;object.&#160;</p>
+</div>
+</body>
+</html>

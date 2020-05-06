@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 273</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:11px;font-family:Times;color:#000000;}
+	.ft06{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft07{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page273-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008273.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:813px;white-space:nowrap" class="ft02">265</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:106px;white-space:nowrap" class="ft06">All Type&#160;1&#160;font programs shall contain an&#160;actual&#160;glyph&#160;named&#160;.&#160;notdef. The effect&#160;produced&#160;by&#160;showing&#160;the&#160;<br/>.&#160;notdef&#160;glyph&#160;is at&#160;the&#160;discretion&#160;of&#160;the font designer.&#160;If&#160;an&#160;encoding&#160;maps&#160;to a character name that&#160;does&#160;not&#160;<br/>exist&#160;in&#160;the&#160;Type 1 font&#160;program, the&#160;.&#160;notdef&#160;glyph&#160;shall be&#160;substituted.&#160;</p>
+<p style="position:absolute;top:201px;left:106px;white-space:nowrap" class="ft03"><b>9.6.6.3</b></p>
+<p style="position:absolute;top:201px;left:170px;white-space:nowrap" class="ft03"><b>Encodings&#160;for Type&#160;3&#160;Fonts</b></p>
+<p style="position:absolute;top:236px;left:106px;white-space:nowrap" class="ft06">A Type&#160;3&#160;font, like&#160;a Type&#160;1&#160;font,&#160;contains&#160;glyph&#160;descriptions that are&#160;keyed by&#160;glyph names; in&#160;this case, they&#160;<br/>appear&#160;as&#160;explicit keys in the font’s&#160;<b>CharProcs</b>&#160;dictionary. A&#160;Type 3 font’s&#160;mapping&#160;from character&#160;codes to&#160;<br/>glyph names&#160;shall be entirely defined by&#160;its&#160;<b>Encoding</b>&#160;entry,&#160;which&#160;is required in this&#160;case.&#160;</p>
+<p style="position:absolute;top:311px;left:106px;white-space:nowrap" class="ft03"><b>9.6.6.4</b></p>
+<p style="position:absolute;top:311px;left:170px;white-space:nowrap" class="ft03"><b>Encodings&#160;for TrueType&#160;Fonts</b></p>
+<p style="position:absolute;top:346px;left:106px;white-space:nowrap" class="ft06">A TrueType&#160;font program’s&#160;built-in&#160;encoding&#160;maps&#160;directly&#160;from&#160;character&#160;codes to glyph descriptions by means&#160;<br/>of an&#160;internal&#160;data&#160;structure called a&#160;“cmap”&#160;(not to&#160;be&#160;confused&#160;with&#160;the&#160;CMap&#160;described<a href="src/../output/5eb00ae79d25b/PDF32000_2008-280.html">&#160;in&#160;9.7.5, &#34;CMaps&#34;</a>).&#160;<br/>This sub-clause describes how&#160;the PDF font dictionary’s&#160;<b>Encoding</b>&#160;entry&#160;shall be used&#160;in&#160;conjunction&#160;with&#160;a&#160;<br/>“cmap”&#160;to&#160;map from&#160;a character code&#160;in a string to a glyph&#160;description&#160;in a TrueType font&#160;program.</p>
+<p style="position:absolute;top:433px;left:106px;white-space:nowrap" class="ft06">A “cmap”&#160;table&#160;may contain&#160;one&#160;or&#160;more&#160;subtables that represent multiple encodings intended&#160;for&#160;use on&#160;<br/>different platforms (such&#160;as&#160;Mac OS and Windows).&#160;Each&#160;subtable&#160;shall be identified by the two&#160;numbers, such&#160;<br/>as (3,&#160;1), that represent a&#160;combination&#160;of&#160;a&#160;<i>platform&#160;ID</i>&#160;and&#160;a&#160;<i>platform-specific encoding&#160;ID</i>, respectively.&#160;</p>
+<p style="position:absolute;top:503px;left:106px;white-space:nowrap" class="ft06">Glyph&#160;names are&#160;not required&#160;in&#160;TrueType&#160;fonts,&#160;although&#160;some&#160;font programs&#160;have&#160;an&#160;optional “post”&#160;table&#160;<br/>listing&#160;glyph&#160;names&#160;for&#160;the&#160;glyphs. If the&#160;conforming&#160;reader&#160;needs to&#160;select glyph descriptions by&#160;name, it&#160;<br/>translates from&#160;glyph&#160;names&#160;to&#160;codes in one of&#160;the&#160;encodings&#160;given in&#160;the font program’s&#160;“cmap”&#160;table. When&#160;<br/>there is no character code in&#160;the&#160;“cmap”&#160;that&#160;corresponds&#160;to a&#160;glyph&#160;name, the&#160;“post”&#160;table&#160;shall&#160;be&#160;used&#160;to&#160;<br/>select a glyph&#160;description directly from&#160;the&#160;glyph name.</p>
+<p style="position:absolute;top:607px;left:106px;white-space:nowrap" class="ft06">Because some aspects&#160;of&#160;TrueType&#160;glyph selection&#160;are&#160;dependent on&#160;the conforming&#160;reader&#160;or&#160;the operating&#160;<br/>system,&#160;PDF files that&#160;use TrueType&#160;fonts should follow certain guidelines&#160;to&#160;ensure&#160;predictable behaviour&#160;<br/>across all conforming&#160;readers:</p>
+<p style="position:absolute;top:677px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:677px;left:135px;white-space:nowrap" class="ft02">The&#160;font program should be&#160;embedded.&#160;</p>
+<p style="position:absolute;top:712px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:712px;left:135px;white-space:nowrap" class="ft06">A&#160;nonsymbolic&#160;font should specify&#160;<b>MacRomanEncoding</b>&#160;or&#160;<b>WinAnsiEncoding</b>&#160;as the value of its&#160;<br/><b>Encoding</b>&#160;entry,&#160;with no&#160;<b>Differences</b>&#160;array.&#160;</p>
+<p style="position:absolute;top:764px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:764px;left:135px;white-space:nowrap" class="ft06">A&#160;font that is&#160;used to display glyphs that do&#160;not use&#160;<b>MacRomanEncoding</b>&#160;or&#160;<b>WinAnsiEncoding</b>&#160;should&#160;<br/>not specify&#160;an&#160;<b>Encoding</b>&#160;entry.&#160;The font&#160;descriptor’s&#160;Symbolic&#160;flag&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-291.html">Table&#160;123) sh</a>ould be&#160;set,&#160;and&#160;its&#160;<br/>font&#160;program’s “cmap”&#160;table should&#160;contain a&#160;(1,&#160;0)&#160;subtable.&#160;It may also&#160;contain a&#160;(3,&#160;0)&#160;subtable; if&#160;<br/>present, this subtable should&#160;map from character codes&#160;in the&#160;range 0xF000&#160;to&#160;0xF0FF&#160;by prepending&#160;the&#160;<br/>single-byte&#160;codes in the (1,&#160;0)&#160;subtable with 0xF0 and mapping to&#160;the&#160;corresponding&#160;glyph&#160;descriptions.</p>
+<p style="position:absolute;top:869px;left:106px;white-space:nowrap" class="ft05">NOTE&#160;1</p>
+<p style="position:absolute;top:869px;left:183px;white-space:nowrap" class="ft07">Some&#160;popular TrueType font&#160;programs contain&#160;incorrect encoding information. Implementations&#160;of&#160;TrueType&#160;<br/>font&#160;interpreters&#160;have evolved heuristics&#160;for dealing with such problems; those heuristics&#160;are not described&#160;<br/>here. For maximum&#160;portability, only well-formed&#160;TrueType font programs should&#160;be used&#160;in&#160;PDF files.&#160;<br/>Therefore,&#160;a TrueType font&#160;program in a PDF file may need&#160;to be&#160;modified to conform&#160;to these guidelines.</p>
+<p style="position:absolute;top:950px;left:106px;white-space:nowrap" class="ft02">The&#160;following&#160;paragraphs&#160;describe&#160;the&#160;treatment&#160;of&#160;TrueType&#160;font&#160;encodings&#160;beginning&#160;with&#160;PDF&#160;1.3.</p>
+<p style="position:absolute;top:985px;left:106px;white-space:nowrap" class="ft06">If the&#160;font has a named&#160;<b>Encoding</b>&#160;entry&#160;of&#160;either&#160;<b>MacRomanEncoding</b>&#160;or&#160;<b>WinAnsiEncoding</b>, or&#160;if&#160;the&#160;font&#160;<br/>descriptor’s&#160;Nonsymbolic flag&#160;(see<a href="src/../output/5eb00ae79d25b/PDF32000_2008-291.html">&#160;Table&#160;123</a>)&#160;is set, the&#160;conforming&#160;reader&#160;shall create&#160;a table that maps&#160;from&#160;<br/>character&#160;codes&#160;to&#160;glyph&#160;names:</p>
+<p style="position:absolute;top:1055px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:1055px;left:135px;white-space:nowrap" class="ft06">If the&#160;<b>Encoding</b>&#160;entry&#160;is&#160;one of the names&#160;<b>MacRomanEncoding</b>&#160;or&#160;<b>WinAnsiEncoding</b>, the&#160;table&#160;shall&#160;be&#160;<br/>initialized&#160;with the mappings&#160;described&#160;in&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-659.html">Annex D.&#160;</a></p>
+</div>
+</body>
+</html>

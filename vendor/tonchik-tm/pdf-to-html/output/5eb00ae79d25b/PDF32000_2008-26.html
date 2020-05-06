@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 26</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:11px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;font-family:Times;color:#000000;}
+	.ft06{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft07{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page26-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008026.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">18</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:127px;left:55px;white-space:nowrap" class="ft06">As stated&#160;above,&#160;name objects shall be&#160;treated&#160;as atomic&#160;within a&#160;PDF file. Ordinarily, the bytes&#160;making up the&#160;<br/>name are never treated&#160;as&#160;text to be&#160;presented&#160;to&#160;a&#160;human user&#160;or&#160;to an&#160;application external&#160;to&#160;a&#160;conforming&#160;<br/>reader. However,&#160;occasionally the need arises&#160;to treat&#160;a&#160;name&#160;object as&#160;text,&#160;such as one that&#160;represents&#160;a font&#160;<br/>name (see&#160;the&#160;<b>BaseFont</b><a href="src/../output/5eb00ae79d25b/PDF32000_2008-262.html">&#160;entry in&#160;Table&#160;111), a</a>&#160;colorant name&#160;in&#160;a&#160;separation&#160;or&#160;DeviceN colour&#160;space,&#160;or&#160;a&#160;<br/>structure type&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-567.html">14.7.3, &#34;Structure Types&#34;</a>).&#160;</p>
+<p style="position:absolute;top:231px;left:55px;white-space:nowrap" class="ft06">In&#160;such&#160;situations, the sequence&#160;of bytes&#160;(after&#160;expansion&#160;of&#160;NUMBER SIGN sequences,&#160;if any)&#160;should be&#160;<br/>interpreted according&#160;to&#160;UTF-8, a variable-length byte-encoded&#160;representation&#160;of&#160;Unicode&#160;in&#160;which&#160;the&#160;<br/>printable ASCII characters have&#160;the&#160;same representations as in ASCII. This enables&#160;a name&#160;object to&#160;<br/>represent text virtually in any natural language, subject to&#160;the&#160;implementation limit on&#160;the&#160;length&#160;of&#160;a name.&#160;</p>
+<p style="position:absolute;top:318px;left:55px;white-space:nowrap" class="ft04">NOTE&#160;4</p>
+<p style="position:absolute;top:318px;left:132px;white-space:nowrap" class="ft07">PDF&#160;does&#160;not prescribe what UTF-8 sequence to&#160;choose for representing any given&#160;piece of externally&#160;<br/>specified text as a name object. In&#160;some cases, multiple&#160;UTF-8&#160;sequences may&#160;represent the same&#160;logical&#160;<br/>text. Name objects defined by different sequences of bytes constitute distinct&#160;name objects in PDF,&#160;even&#160;<br/>though the&#160;UTF-8&#160;sequences may have identical external interpretations.&#160;</p>
+<p style="position:absolute;top:404px;left:55px;white-space:nowrap" class="ft03"><b>7.3.6</b></p>
+<p style="position:absolute;top:404px;left:119px;white-space:nowrap" class="ft03"><b>Array&#160;Objects</b></p>
+<p style="position:absolute;top:439px;left:55px;white-space:nowrap" class="ft06">An&#160;<i>array object</i>&#160;is a&#160;one-dimensional collection&#160;of objects arranged sequentially. Unlike&#160;arrays in&#160;many&#160;other&#160;<br/>computer&#160;languages,&#160;PDF arrays may&#160;be&#160;heterogeneous;&#160;that&#160;is,&#160;an&#160;array’s elements may&#160;be&#160;any combination&#160;<br/>of&#160;numbers, strings,&#160;dictionaries,&#160;or&#160;any&#160;other&#160;objects,&#160;including&#160;other&#160;arrays.&#160;An&#160;array&#160;may&#160;have&#160;zero&#160;<br/>elements.</p>
+<p style="position:absolute;top:526px;left:55px;white-space:nowrap" class="ft06">An&#160;array shall&#160;be&#160;written&#160;as a&#160;sequence&#160;of objects enclosed&#160;in SQUARE BRACKETS&#160;(using LEFT SQUARE&#160;<br/>BRACKET (5Bh) and RIGHT&#160;SQUARE BRACKET (5Dh)).</p>
+<p style="position:absolute;top:578px;left:55px;white-space:nowrap" class="ft04">EXAMPLE</p>
+<p style="position:absolute;top:578px;left:162px;white-space:nowrap" class="ft04">[&#160;549&#160;&#160;3.14&#160;&#160;false&#160;&#160;(&#160;Ralph&#160;)&#160;&#160;/SomeName&#160;]</p>
+<p style="position:absolute;top:612px;left:55px;white-space:nowrap" class="ft06">PDF directly supports&#160;only one-dimensional&#160;arrays. Arrays&#160;of higher&#160;dimension can be constructed&#160;by&#160;using&#160;<br/>arrays&#160;as&#160;elements&#160;of arrays,&#160;nested&#160;to any depth.&#160;</p>
+<p style="position:absolute;top:669px;left:55px;white-space:nowrap" class="ft03"><b>7.3.7</b></p>
+<p style="position:absolute;top:669px;left:119px;white-space:nowrap" class="ft03"><b>Dictionary Objects</b></p>
+<p style="position:absolute;top:704px;left:55px;white-space:nowrap" class="ft06">A&#160;<i>dictionary object</i>&#160;is an&#160;associative table containing&#160;pairs of objects,&#160;known&#160;as&#160;the dictionary’s&#160;<i>entries</i>. The&#160;first&#160;<br/>element of each&#160;entry&#160;is the&#160;<i>key</i>&#160;and&#160;the second element is the&#160;<i>value</i>.&#160;The key shall be&#160;a name (unlike&#160;<br/>dictionary keys&#160;in PostScript, which may be&#160;objects&#160;of&#160;any&#160;type). The value may be&#160;any kind&#160;of object, including&#160;<br/>another&#160;dictionary.&#160;A&#160;dictionary entry&#160;whose&#160;value is&#160;<b>null</b>&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-29.html">7.3.9, &#34;Null&#160;Object&#34;)</a>&#160;shall be treated the same&#160;as&#160;<br/>if the&#160;entry does not exist. (This differs from&#160;PostScript, where&#160;<b>null</b>&#160;behaves like any other object as the value&#160;<br/>of a&#160;dictionary&#160;entry.)&#160;The&#160;number&#160;of entries in&#160;a&#160;dictionary shall be subject to&#160;an&#160;implementation&#160;limit;&#160;see&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-657.html">Annex C. A dicti</a>onary may have zero&#160;entries.</p>
+<p style="position:absolute;top:843px;left:55px;white-space:nowrap" class="ft06">The entries in a dictionary&#160;represent an&#160;associative&#160;table&#160;and as&#160;such shall be unordered even&#160;though&#160;an&#160;<br/>arbitrary&#160;order&#160;may&#160;be&#160;imposed upon them&#160;when written&#160;in&#160;a&#160;file. That&#160;ordering&#160;shall be&#160;ignored.</p>
+<p style="position:absolute;top:896px;left:55px;white-space:nowrap" class="ft01">Multiple entries&#160;in the&#160;same&#160;dictionary shall not have&#160;the same key.</p>
+<p style="position:absolute;top:930px;left:55px;white-space:nowrap" class="ft06">A dictionary shall be&#160;written as a sequence of key-value pairs enclosed&#160;in double angle brackets&#160;(&lt;&lt;&#160;…&#160;&gt;&gt;)&#160;<br/>(using LESS-THAN SIGNs (3Ch) and GREATER-THAN SIGNs (3Eh)).&#160;</p>
+<p style="position:absolute;top:983px;left:55px;white-space:nowrap" class="ft04">EXAMPLE</p>
+<p style="position:absolute;top:983px;left:162px;white-space:nowrap" class="ft04">&lt;&lt;&#160;&#160;/Type&#160;&#160;/Example</p>
+<p style="position:absolute;top:979px;left:281px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:998px;left:162px;white-space:nowrap" class="ft04">&#160;/Subtype&#160;&#160;/DictionaryExample</p>
+<p style="position:absolute;top:995px;left:360px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1014px;left:162px;white-space:nowrap" class="ft04">&#160;/Version&#160;&#160;0&#160;.&#160;01</p>
+<p style="position:absolute;top:1010px;left:267px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1030px;left:183px;white-space:nowrap" class="ft04">/IntegerItem&#160;&#160;12</p>
+<p style="position:absolute;top:1026px;left:277px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1046px;left:162px;white-space:nowrap" class="ft04">&#160;/StringItem&#160;&#160;(&#160;a string&#160;)</p>
+<p style="position:absolute;top:1042px;left:310px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1062px;left:162px;white-space:nowrap" class="ft04">&#160;/Subdictionary&#160;&#160;&lt;&lt;&#160;&#160;/Item1&#160;&#160;0&#160;.&#160;4</p>
+<p style="position:absolute;top:1058px;left:365px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1077px;left:276px;white-space:nowrap" class="ft04">&#160;/Item2&#160;&#160;true</p>
+<p style="position:absolute;top:1073px;left:367px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1093px;left:276px;white-space:nowrap" class="ft04">&#160;/LastItem&#160;&#160;(&#160;not&#160;!&#160;)</p>
+<p style="position:absolute;top:1089px;left:397px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1109px;left:276px;white-space:nowrap" class="ft04">&#160;/VeryLastItem&#160;&#160;(&#160;OK&#160;)</p>
+<p style="position:absolute;top:1105px;left:420px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1125px;left:247px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1125px;left:275px;white-space:nowrap" class="ft04">&#160;&gt;&gt;</p>
+<p style="position:absolute;top:1121px;left:291px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1140px;left:162px;white-space:nowrap" class="ft04">&gt;&gt;</p>
+</div>
+</body>
+</html>

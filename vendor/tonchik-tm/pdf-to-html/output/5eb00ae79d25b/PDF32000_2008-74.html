@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 74</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:11px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;font-family:Times;color:#000000;}
+	.ft07{font-size:8px;font-family:Times;color:#000000;}
+	.ft08{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft09{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft010{font-size:8px;line-height:13px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page74-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008074.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">66</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:338px;left:55px;white-space:nowrap" class="ft03"><b>7.6.4.3</b></p>
+<p style="position:absolute;top:338px;left:119px;white-space:nowrap" class="ft03"><b>Public-Key&#160;Encryption&#160;Algorithms</b></p>
+<p style="position:absolute;top:373px;left:55px;white-space:nowrap" class="ft08"><a href="src/../output/5eb00ae79d25b/PDF32000_2008-74.html">Figure 4&#160;illus</a>trates how&#160;PKCS#7 objects&#160;shall be used when encrypting PDF files.&#160;A PKCS#7 object&#160;is&#160;<br/>designed&#160;to encapsulate and encrypt&#160;what&#160;is&#160;referred&#160;to as&#160;the&#160;<i>enveloped&#160;data</i>.</p>
+<p style="position:absolute;top:736px;left:267px;white-space:nowrap" class="ft03"><b>Figure&#160;4&#160;–&#160;&#160;Public-key&#160;encryption algorithm</b></p>
+<p style="position:absolute;top:770px;left:55px;white-space:nowrap" class="ft08">The&#160;enveloped data&#160;in&#160;the PKCS#7&#160;object contains&#160;keying&#160;material&#160;that shall be&#160;used&#160;to&#160;decrypt the document&#160;<br/>(or&#160;individual strings or&#160;streams in the&#160;document,&#160;when&#160;crypt&#160;filters are used; see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-75.html">7.6.5,&#160;&#34;Crypt&#160;Filters&#34;). A&#160;</a>key&#160;<br/>shall be&#160;used&#160;to&#160;encrypt&#160;(and&#160;decrypt)&#160;the&#160;enveloped&#160;data.&#160;This key (the&#160;<i>plaintext key</i>&#160;in&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-74.html">Figure&#160;4</a>) shall be&#160;<br/>encrypted&#160;for each&#160;recipient, using&#160;that&#160;recipient’s public&#160;key,&#160;and&#160;shall be&#160;stored&#160;in&#160;the&#160;PKCS#7&#160;object (as the&#160;<br/><i>encrypted&#160;key</i>&#160;for&#160;each recipient). To&#160;decrypt the document, that key shall be&#160;decrypted&#160;using the&#160;recipient’s&#160;<br/>private&#160;key,&#160;which yields&#160;a decrypted&#160;(plaintext)&#160;key.&#160;That&#160;key,&#160;in turn, shall&#160;be&#160;used&#160;to&#160;decrypt the enveloped&#160;<br/>data&#160;in&#160;the PKCS#7&#160;object,&#160;resulting in a byte array that includes&#160;the&#160;following information:</p>
+<p style="position:absolute;top:909px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:909px;left:84px;white-space:nowrap" class="ft08">A&#160;20-byte&#160;seed&#160;that&#160;shall be used to&#160;create the&#160;encryption&#160;key that is used&#160;by<a href="src/../output/5eb00ae79d25b/PDF32000_2008-66.html">&#160;&#34;Algorithm&#160;1: Encryption&#160;of&#160;<br/>data using&#160;the RC4 or AES algorithms&#34;.</a>&#160;The&#160;seed&#160;shall be&#160;a&#160;unique&#160;random&#160;number&#160;generated&#160;by&#160;the&#160;<br/>security&#160;handler&#160;that&#160;encrypted the document.</p>
+<p style="position:absolute;top:979px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:979px;left:84px;white-space:nowrap" class="ft08">A&#160;4-byte value defining&#160;the permissions,&#160;least significant byte&#160;first. See&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-73.html">Table&#160;24</a>&#160;for&#160;the&#160;possible&#160;<br/>permission values.&#160;</p>
+<p style="position:absolute;top:1031px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:1031px;left:84px;white-space:nowrap" class="ft08">When&#160;<b>SubFilter</b>&#160;is&#160;<b>adbe.pkcs7.s3</b>,&#160;the&#160;relevant permissions shall be&#160;only those specified&#160;for revision&#160;2&#160;of&#160;<br/>the&#160;standard&#160;security&#160;handler.</p>
+<p style="position:absolute;top:1083px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:1083px;left:84px;white-space:nowrap" class="ft01">For&#160;<b>adbe.pkcs7.s4</b>, security&#160;handlers of&#160;revision&#160;3&#160;permissions&#160;shall&#160;apply.&#160;</p>
+<p style="position:absolute;top:1119px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:1119px;left:84px;white-space:nowrap" class="ft08">For&#160;&#160;<b>adbe.pkcs7.s5</b>, which supports&#160;the use of crypt filters,&#160;the&#160;permissions shall be&#160;the same&#160;as&#160;<br/><b>adbe.pkcs7.s4</b>&#160;when&#160;the&#160;crypt filter&#160;is referenced&#160;from&#160;the&#160;<b>StmF</b>&#160;or&#160;<b>StrF</b>&#160;entries of the encryption&#160;</p>
+<p style="position:absolute;top:188px;left:176px;white-space:nowrap" class="ft05">11</p>
+<p style="position:absolute;top:188px;left:302px;white-space:nowrap" class="ft09">Assemble&#160;the document&#160;(insert, rotate, or delete pages&#160;and&#160;<br/>create&#160;bookmarks or&#160;thumbnail images), even if bit 4 is clear.&#160;</p>
+<p style="position:absolute;top:233px;left:176px;white-space:nowrap" class="ft05">12</p>
+<p style="position:absolute;top:233px;left:302px;white-space:nowrap" class="ft09">&#160;Print the&#160;document to&#160;a&#160;representation&#160;from&#160;which&#160;a&#160;faithful&#160;<br/>digital copy of&#160;the PDF content&#160;could be generated.&#160;When&#160;<br/>this bit is clear (and bit 3&#160;is set), printing&#160;is limited&#160;to&#160;a low-<br/>level representation&#160;of the appearance, possibly of degraded&#160;<br/>quality.&#160;</p>
+<p style="position:absolute;top:127px;left:146px;white-space:nowrap" class="ft03"><b>Table 24&#160;– &#160;Public-Key&#160;security&#160;handler user access permissions&#160;&#160;(continued)</b></p>
+<p style="position:absolute;top:160px;left:176px;white-space:nowrap" class="ft06"><b>Bit position</b></p>
+<p style="position:absolute;top:160px;left:302px;white-space:nowrap" class="ft06"><b>Meaning</b></p>
+<p style="position:absolute;top:448px;left:453px;white-space:nowrap" class="ft05">20-byte seed</p>
+<p style="position:absolute;top:449px;left:547px;white-space:nowrap" class="ft05">Permissions*</p>
+<p style="position:absolute;top:448px;left:173px;white-space:nowrap" class="ft05">PKCS#7 Object</p>
+<p style="position:absolute;top:487px;left:220px;white-space:nowrap" class="ft05">Enveloped data</p>
+<p style="position:absolute;top:627px;left:215px;white-space:nowrap" class="ft05">Encrypted key</p>
+<p style="position:absolute;top:606px;left:220px;white-space:nowrap" class="ft05">John Doe</p>
+<p style="position:absolute;top:608px;left:397px;white-space:nowrap" class="ft05">Decrypt</p>
+<p style="position:absolute;top:686px;left:430px;white-space:nowrap" class="ft05">John&#160;Doe’s&#160;private key</p>
+<p style="position:absolute;top:546px;left:398px;white-space:nowrap" class="ft05">Plaintext key</p>
+<p style="position:absolute;top:497px;left:397px;white-space:nowrap" class="ft05">Decrypt</p>
+<p style="position:absolute;top:431px;left:479px;white-space:nowrap" class="ft05">Plaintext byte&#160;array</p>
+<p style="position:absolute;top:567px;left:544px;white-space:nowrap" class="ft010">Used&#160;to&#160;generate&#160;<br/>encryption key</p>
+<p style="position:absolute;top:674px;left:215px;white-space:nowrap" class="ft05">Encrypted key</p>
+<p style="position:absolute;top:652px;left:220px;white-space:nowrap" class="ft05">Jeff&#160;Smith</p>
+<p style="position:absolute;top:471px;left:555px;white-space:nowrap" class="ft010">* Permissions&#160;not&#160;pres-<br/>ent&#160;when&#160;PKCS#7&#160;object&#160;<br/>is&#160;referenced from Crypt&#160;<br/>filter&#160;decode&#160;parameter&#160;<br/>dictionary</p>
+</div>
+</body>
+</html>

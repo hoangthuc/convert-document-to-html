@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 550</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page550-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008550.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">542</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:127px;left:55px;white-space:nowrap" class="ft05">Both approaches&#160;may achieve the same visual effects; in&#160;practice,&#160;3D&#160;systems&#160;typically use a combination&#160;of&#160;<br/>both. Conceptually,&#160;there are three&#160;distinct&#160;coordinate&#160;systems:&#160;</p>
+<p style="position:absolute;top:179px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:179px;left:84px;white-space:nowrap" class="ft01">The&#160;<i>artwork coordinate&#160;system</i>.</p>
+<p style="position:absolute;top:215px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:215px;left:84px;white-space:nowrap" class="ft05">The&#160;<i>camera&#160;coordinate system</i>, in&#160;which the&#160;camera&#160;shall be positioned&#160;at (0, 0, 0)&#160;facing&#160;out along the&#160;<br/>positive&#160;<i>z</i>&#160;axis, with the&#160;positive&#160;<i>x</i>&#160;axis to the right and&#160;the positive&#160;<i>y</i>&#160;axis going&#160;straight&#160;up.&#160;</p>
+<p style="position:absolute;top:267px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:267px;left:84px;white-space:nowrap" class="ft01">An intermediate&#160;system called&#160;the&#160;<i>world coordinate system</i>.</p>
+<p style="position:absolute;top:302px;left:55px;white-space:nowrap" class="ft01">Two&#160;3D&#160;transformation matrices&#160;shall be used&#160;in coordinate conversions:</p>
+<p style="position:absolute;top:338px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:338px;left:84px;white-space:nowrap" class="ft05">The&#160;&#160;<i>artwork-to-world matrix</i>&#160;specifies the&#160;position&#160;and orientation of&#160;the&#160;artwork in&#160;the world&#160;coordinate&#160;<br/>system. This matrix shall&#160;be&#160;contained&#160;in&#160;the 3D stream.&#160;</p>
+<p style="position:absolute;top:390px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:390px;left:84px;white-space:nowrap" class="ft05">The&#160;&#160;<i>camera-to-world&#160;matrix</i>&#160;specifies the&#160;position&#160;and orientation of&#160;the&#160;camera&#160;in&#160;the&#160;world&#160;coordinate&#160;<br/>system. This matrix&#160;shall&#160;be&#160;specified by&#160;either&#160;the&#160;<b>C2W</b>&#160;or&#160;<b>U3DPath</b>&#160;entries&#160;of the&#160;3D&#160;view&#160;dictionary.</p>
+<p style="position:absolute;top:443px;left:55px;white-space:nowrap" class="ft05">When drawing 3D&#160;artwork in&#160;a 3D&#160;annotation’s target&#160;coordinate system, the&#160;following transformations take&#160;<br/>place:</p>
+<p style="position:absolute;top:495px;left:55px;white-space:nowrap" class="ft01">a)</p>
+<p style="position:absolute;top:495px;left:84px;white-space:nowrap" class="ft01">Artwork&#160;coordinates shall&#160;be&#160;transformed&#160;to&#160;world&#160;coordinates:</p>
+<p style="position:absolute;top:585px;left:55px;white-space:nowrap" class="ft01">b)</p>
+<p style="position:absolute;top:585px;left:84px;white-space:nowrap" class="ft01">World coordinates&#160;shall be transformed to camera coordinates:</p>
+<p style="position:absolute;top:674px;left:55px;white-space:nowrap" class="ft01">c)</p>
+<p style="position:absolute;top:674px;left:84px;white-space:nowrap" class="ft01">The first two&#160;steps&#160;can be expressed&#160;as&#160;a single equation,&#160;as follows:</p>
+<p style="position:absolute;top:764px;left:55px;white-space:nowrap" class="ft01">d)</p>
+<p style="position:absolute;top:764px;left:84px;white-space:nowrap" class="ft05">Finally, the camera&#160;coordinates shall be&#160;projected&#160;into&#160;two&#160;dimensions, eliminating&#160;the&#160;<i>z</i>&#160;coordinate,&#160;then&#160;<br/>scaled&#160;and positioned within the&#160;annotation’s target coordinate&#160;system.</p>
+<p style="position:absolute;top:821px;left:55px;white-space:nowrap" class="ft04"><b>13.6.6</b></p>
+<p style="position:absolute;top:821px;left:119px;white-space:nowrap" class="ft04"><b>3D&#160;Markup</b></p>
+<p style="position:absolute;top:856px;left:55px;white-space:nowrap" class="ft05">Beginning&#160;with PDF&#160;1.7,&#160;users&#160;may&#160;comment&#160;on&#160;specific&#160;views&#160;of&#160;3D&#160;artwork by&#160;using&#160;markup&#160;annotations&#160;<br/>(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-399.html">12.5.6.2,&#160;“Markup&#160;Annotations”</a>).&#160;Markup&#160;annotations (as other annotations) are normally associated with&#160;<br/>a location on&#160;a page. To&#160;associate the&#160;markup&#160;with&#160;a specific view&#160;of&#160;a&#160;3D annotation, the annotation&#160;dictionary&#160;<br/>for&#160;the&#160;markup&#160;annotation contains an&#160;<b>ExData</b>&#160;entry (see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-404.html">Table&#160;174)</a>&#160;that&#160;specifies the 3D&#160;annotation and view.&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-551.html">Table&#160;313</a>&#160;describes&#160;the entries in an&#160;external data&#160;dictionary used&#160;to&#160;markup&#160;3D&#160;annotations.</p>
+<p style="position:absolute;top:542px;left:90px;white-space:nowrap" class="ft01">x</p>
+<p style="position:absolute;top:549px;left:98px;white-space:nowrap" class="ft02">w</p>
+<p style="position:absolute;top:542px;left:112px;white-space:nowrap" class="ft01">y</p>
+<p style="position:absolute;top:549px;left:120px;white-space:nowrap" class="ft02">w</p>
+<p style="position:absolute;top:542px;left:134px;white-space:nowrap" class="ft01">z</p>
+<p style="position:absolute;top:549px;left:141px;white-space:nowrap" class="ft02">w</p>
+<p style="position:absolute;top:542px;left:155px;white-space:nowrap" class="ft01">1</p>
+<p style="position:absolute;top:542px;left:196px;white-space:nowrap" class="ft01">x</p>
+<p style="position:absolute;top:549px;left:204px;white-space:nowrap" class="ft02">a</p>
+<p style="position:absolute;top:542px;left:215px;white-space:nowrap" class="ft01">y</p>
+<p style="position:absolute;top:549px;left:223px;white-space:nowrap" class="ft02">a</p>
+<p style="position:absolute;top:542px;left:234px;white-space:nowrap" class="ft01">z</p>
+<p style="position:absolute;top:549px;left:240px;white-space:nowrap" class="ft02">a</p>
+<p style="position:absolute;top:542px;left:251px;white-space:nowrap" class="ft01">1</p>
+<p style="position:absolute;top:541px;left:279px;white-space:nowrap" class="ft01">aw</p>
+<p style="position:absolute;top:537px;left:267px;white-space:nowrap" class="ft01">×</p>
+<p style="position:absolute;top:541px;left:175px;white-space:nowrap" class="ft01">=</p>
+<p style="position:absolute;top:632px;left:87px;white-space:nowrap" class="ft01">x</p>
+<p style="position:absolute;top:639px;left:95px;white-space:nowrap" class="ft02">c</p>
+<p style="position:absolute;top:632px;left:106px;white-space:nowrap" class="ft01">y</p>
+<p style="position:absolute;top:639px;left:114px;white-space:nowrap" class="ft02">c</p>
+<p style="position:absolute;top:632px;left:125px;white-space:nowrap" class="ft01">z</p>
+<p style="position:absolute;top:639px;left:132px;white-space:nowrap" class="ft02">c</p>
+<p style="position:absolute;top:632px;left:143px;white-space:nowrap" class="ft01">1</p>
+<p style="position:absolute;top:632px;left:183px;white-space:nowrap" class="ft01">x</p>
+<p style="position:absolute;top:639px;left:191px;white-space:nowrap" class="ft02">w</p>
+<p style="position:absolute;top:632px;left:205px;white-space:nowrap" class="ft01">y</p>
+<p style="position:absolute;top:639px;left:213px;white-space:nowrap" class="ft02">w</p>
+<p style="position:absolute;top:632px;left:227px;white-space:nowrap" class="ft01">z</p>
+<p style="position:absolute;top:639px;left:234px;white-space:nowrap" class="ft02">w</p>
+<p style="position:absolute;top:632px;left:249px;white-space:nowrap" class="ft01">1</p>
+<p style="position:absolute;top:631px;left:281px;white-space:nowrap" class="ft01">cw</p>
+<p style="position:absolute;top:624px;left:306px;white-space:nowrap" class="ft02">1</p>
+<p style="position:absolute;top:624px;left:299px;white-space:nowrap" class="ft02">–</p>
+<p style="position:absolute;top:626px;left:276px;white-space:nowrap" class="ft01">(</p>
+<p style="position:absolute;top:626px;left:313px;white-space:nowrap" class="ft01">)</p>
+<p style="position:absolute;top:626px;left:264px;white-space:nowrap" class="ft01">×</p>
+<p style="position:absolute;top:630px;left:162px;white-space:nowrap" class="ft01">=</p>
+<p style="position:absolute;top:721px;left:89px;white-space:nowrap" class="ft01">x</p>
+<p style="position:absolute;top:728px;left:97px;white-space:nowrap" class="ft02">c</p>
+<p style="position:absolute;top:721px;left:108px;white-space:nowrap" class="ft01">y</p>
+<p style="position:absolute;top:728px;left:115px;white-space:nowrap" class="ft02">c</p>
+<p style="position:absolute;top:721px;left:126px;white-space:nowrap" class="ft01">z</p>
+<p style="position:absolute;top:728px;left:133px;white-space:nowrap" class="ft02">c</p>
+<p style="position:absolute;top:721px;left:144px;white-space:nowrap" class="ft01">1</p>
+<p style="position:absolute;top:721px;left:185px;white-space:nowrap" class="ft01">x</p>
+<p style="position:absolute;top:728px;left:193px;white-space:nowrap" class="ft02">a</p>
+<p style="position:absolute;top:721px;left:204px;white-space:nowrap" class="ft01">y</p>
+<p style="position:absolute;top:728px;left:211px;white-space:nowrap" class="ft02">a</p>
+<p style="position:absolute;top:721px;left:222px;white-space:nowrap" class="ft01">z</p>
+<p style="position:absolute;top:728px;left:229px;white-space:nowrap" class="ft02">a</p>
+<p style="position:absolute;top:721px;left:240px;white-space:nowrap" class="ft01">1</p>
+<p style="position:absolute;top:720px;left:273px;white-space:nowrap" class="ft01">aw</p>
+<p style="position:absolute;top:720px;left:306px;white-space:nowrap" class="ft01">cw</p>
+<p style="position:absolute;top:714px;left:330px;white-space:nowrap" class="ft02">1</p>
+<p style="position:absolute;top:713px;left:324px;white-space:nowrap" class="ft02">–</p>
+<p style="position:absolute;top:716px;left:294px;white-space:nowrap" class="ft01">×</p>
+<p style="position:absolute;top:716px;left:267px;white-space:nowrap" class="ft01">(</p>
+<p style="position:absolute;top:716px;left:337px;white-space:nowrap" class="ft01">)</p>
+<p style="position:absolute;top:716px;left:256px;white-space:nowrap" class="ft01">×</p>
+<p style="position:absolute;top:720px;left:164px;white-space:nowrap" class="ft01">=</p>
+</div>
+</body>
+</html>

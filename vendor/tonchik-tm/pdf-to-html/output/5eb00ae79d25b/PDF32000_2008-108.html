@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 108</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:11px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;font-family:Times;color:#000000;}
+	.ft06{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft08{font-size:11px;line-height:19px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page108-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008108.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">100</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:127px;left:55px;white-space:nowrap" class="ft06">A&#160;file specification shall&#160;refer&#160;to a&#160;file&#160;external to the PDF&#160;file&#160;or&#160;to a file&#160;embedded within the referring&#160;PDF file,&#160;<br/>allowing its contents&#160;to be&#160;stored&#160;or&#160;transmitted&#160;along&#160;with&#160;the&#160;PDF&#160;file. The&#160;file&#160;shall&#160;be&#160;considered&#160;to&#160;be&#160;<br/>external to&#160;the PDF file in either case.&#160;</p>
+<p style="position:absolute;top:201px;left:55px;white-space:nowrap" class="ft03"><b>7.11.2</b></p>
+<p style="position:absolute;top:201px;left:119px;white-space:nowrap" class="ft03"><b>File&#160;Specification&#160;Strings</b></p>
+<p style="position:absolute;top:241px;left:55px;white-space:nowrap" class="ft03"><b>7.11.2.1&#160;General</b></p>
+<p style="position:absolute;top:276px;left:55px;white-space:nowrap" class="ft06">The&#160;standard format for representing&#160;a&#160;simple file&#160;specification&#160;in string form&#160;divides&#160;the string&#160;into component&#160;<br/>substrings&#160;separated&#160;by the&#160;SOLIDUS character&#160;(2Fh)&#160;(/).&#160;The SOLIDUS is&#160;a generic component&#160;separator&#160;<br/>that shall&#160;be mapped&#160;to&#160;the&#160;appropriate platform-specific separator&#160;when&#160;generating&#160;a&#160;platform-dependent&#160;file&#160;<br/>name. Any of&#160;the&#160;components&#160;may be empty.&#160;If a component&#160;contains one&#160;or more&#160;literal&#160;SOLIDI, each&#160;shall be&#160;<br/>preceded by a&#160;REVERSE&#160;SOLIDUS (5Ch)&#160;(\),&#160;which in&#160;turn shall be preceded by another&#160;REVERSE SOLIDUS&#160;<br/>to&#160;indicate that it&#160;is part of&#160;the&#160;string&#160;and not an&#160;escape character.&#160;</p>
+<p style="position:absolute;top:398px;left:55px;white-space:nowrap" class="ft04">EXAMPLE</p>
+<p style="position:absolute;top:398px;left:162px;white-space:nowrap" class="ft04">(&#160;in&#160;\&#160;\&#160;/out&#160;)</p>
+<p style="position:absolute;top:394px;left:217px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:413px;left:162px;white-space:nowrap" class="ft04">represents&#160;the file name&#160;</p>
+<p style="position:absolute;top:410px;left:310px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:429px;left:162px;white-space:nowrap" class="ft04">in&#160;/&#160;out</p>
+<p style="position:absolute;top:463px;left:55px;white-space:nowrap" class="ft06">The&#160;REVERSE SOLIDI shall&#160;be&#160;removed in processing the string; they are&#160;needed&#160;only to distinguish&#160;the&#160;<br/>component&#160;values&#160;from&#160;the&#160;component separators.&#160;The component&#160;substrings&#160;shall be&#160;stored&#160;as bytes&#160;and&#160;<br/>shall&#160;be&#160;passed&#160;to&#160;the&#160;operating&#160;system without&#160;interpretation&#160;or&#160;conversion of any sort.&#160;</p>
+<p style="position:absolute;top:537px;left:55px;white-space:nowrap" class="ft03"><b>7.11.2.2&#160;Absolute&#160;and Relative&#160;File&#160;Specifications</b></p>
+<p style="position:absolute;top:572px;left:55px;white-space:nowrap" class="ft06">A&#160;simple file specification that&#160;begins with a SOLIDUS shall be an&#160;<i>absolute</i>&#160;file&#160;specification.&#160;The&#160;last&#160;<br/>component shall be the&#160;file name;&#160;the preceding components&#160;shall&#160;specify its context. In&#160;some&#160;file&#160;<br/>specifications, the file&#160;name may be empty;&#160;for&#160;example,&#160;URL (uniform&#160;resource&#160;locator) specifications&#160;can&#160;<br/>specify directories instead&#160;of files.&#160;A file&#160;specification that does&#160;not begin&#160;with a&#160;SOLIDUS shall&#160;be&#160;a&#160;<i>relative</i>&#160;file&#160;<br/>specification giving&#160;the&#160;location of the file relative to&#160;that&#160;of&#160;the PDF file&#160;containing it.&#160;</p>
+<p style="position:absolute;top:677px;left:55px;white-space:nowrap" class="ft06">In&#160;the case of a URL-based file system, the&#160;rules of Internet RFC 1808,&#160;<i>Relative Uniform Resource Locators<br/></i>(see&#160;th<a href="src/../output/5eb00ae79d25b/PDF32000_2008-753.html">e&#160;Bibliography), sha</a>ll be&#160;used&#160;to compute&#160;an&#160;absolute URL&#160;from&#160;a relative&#160;file&#160;specification and&#160;the&#160;<br/>specification of&#160;the PDF file. Prior to&#160;this&#160;process, the&#160;relative file specification shall be&#160;converted to a relative&#160;<br/>URL by&#160;using&#160;the escape&#160;mechanism of&#160;RFC 1738,&#160;<i>Uniform Resource&#160;Locators</i>, to represent any bytes that&#160;<br/>would be either unsafe&#160;according to RFC 1738&#160;or not&#160;representable&#160;in&#160;7-bit U.S.&#160;ASCII. In&#160;addition,&#160;such&#160;URL-<br/>based&#160;relative&#160;file&#160;specifications&#160;shall be&#160;limited&#160;to&#160;paths as&#160;defined&#160;in RFC 1808.&#160;The&#160;scheme, network&#160;<br/>location/login, fragment identifier,&#160;query&#160;information, and&#160;parameter&#160;sections&#160;shall&#160;not&#160;be&#160;allowed.&#160;</p>
+<p style="position:absolute;top:815px;left:55px;white-space:nowrap" class="ft06">In&#160;the&#160;case&#160;of other file systems, a relative file specification shall be converted to&#160;an&#160;absolute&#160;file specification&#160;<br/>by removing&#160;the file name component from&#160;the specification of&#160;the&#160;containing&#160;PDF file and appending the&#160;<br/>relative&#160;file&#160;specification in its&#160;place.&#160;</p>
+<p style="position:absolute;top:885px;left:55px;white-space:nowrap" class="ft04">EXAMPLE 1</p>
+<p style="position:absolute;top:885px;left:162px;white-space:nowrap" class="ft04">The&#160;relative file specification</p>
+<p style="position:absolute;top:881px;left:331px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:897px;left:162px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:917px;left:183px;white-space:nowrap" class="ft04">ArtFiles&#160;/&#160;Figure1&#160;.&#160;pdf</p>
+<p style="position:absolute;top:913px;left:305px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:929px;left:162px;white-space:nowrap" class="ft08">&#160;<br/>appearing&#160;in&#160;a PDF&#160;file&#160;whose&#160;specification&#160;is&#160;</p>
+<p style="position:absolute;top:944px;left:437px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:960px;left:162px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:980px;left:183px;white-space:nowrap" class="ft04">/&#160;HardDisk&#160;/&#160;PDFDocuments&#160;/&#160;AnnualReport&#160;/&#160;Summary&#160;.&#160;pdf</p>
+<p style="position:absolute;top:976px;left:520px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:992px;left:162px;white-space:nowrap" class="ft08">&#160;<br/>yields&#160;the absolute specification&#160;</p>
+<p style="position:absolute;top:1007px;left:355px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1023px;left:162px;white-space:nowrap" class="ft04">&#160;</p>
+<p style="position:absolute;top:1043px;left:183px;white-space:nowrap" class="ft04">/&#160;HardDisk&#160;/&#160;PDFDocuments&#160;/&#160;AnnualReport&#160;/&#160;ArtFiles&#160;/&#160;Figure1&#160;.&#160;pdf</p>
+<p style="position:absolute;top:1076px;left:55px;white-space:nowrap" class="ft06">The&#160;special component .&#160;. (two&#160;PERIODs) (2Eh)&#160;can&#160;be&#160;used in a relative&#160;file specification&#160;to move&#160;up&#160;a level in&#160;<br/>the&#160;file system&#160;hierarchy.&#160;After an absolute&#160;specification&#160;has&#160;been derived, when&#160;the&#160;component immediately&#160;<br/>preceding&#160;.&#160;. is&#160;not another&#160;.&#160;.&#160;, the&#160;two&#160;cancel&#160;each&#160;other; both&#160;are&#160;eliminated&#160;from&#160;the file&#160;specification&#160;and&#160;the&#160;<br/>process&#160;is&#160;repeated.&#160;</p>
+</div>
+</body>
+</html>

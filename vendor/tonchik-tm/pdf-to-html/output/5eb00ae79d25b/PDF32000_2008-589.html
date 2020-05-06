@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 589</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:11px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page589-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008589.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:813px;white-space:nowrap" class="ft02">581</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:106px;white-space:nowrap" class="ft03"><b>14.8.2.5</b></p>
+<p style="position:absolute;top:127px;left:191px;white-space:nowrap" class="ft03"><b>Identifying Word Breaks</b></p>
+<p style="position:absolute;top:162px;left:106px;white-space:nowrap" class="ft04">NOTE&#160;1</p>
+<p style="position:absolute;top:162px;left:183px;white-space:nowrap" class="ft06">A&#160;document’s&#160;text stream&#160;defines not only the characters in&#160;a page’s&#160;text but also&#160;the words. Unlike a&#160;<br/>character,&#160;the&#160;notion of&#160;a word&#160;is&#160;not precisely&#160;defined&#160;but depends on&#160;the&#160;purpose&#160;for which&#160;the&#160;text is&#160;being&#160;<br/>processed. A reflow tool needs to determine&#160;where it&#160;can break the running text into&#160;lines; a text-to-speech&#160;<br/>engine&#160;needs&#160;to identify the words to&#160;be&#160;vocalized; spelling&#160;checkers and&#160;other&#160;applications all&#160;have their&#160;own&#160;<br/>ideas&#160;of&#160;what constitutes a&#160;word. It is not&#160;important for a&#160;Tagged PDF&#160;document to&#160;identify the words within&#160;the&#160;<br/>text stream according&#160;to a&#160;single, unambiguous&#160;definition&#160;that satisfies all of&#160;these&#160;clients. What is important is&#160;<br/>that&#160;there be enough&#160;information available for&#160;each client&#160;to&#160;make&#160;that&#160;determination for&#160;itself.&#160;</p>
+<p style="position:absolute;top:290px;left:106px;white-space:nowrap" class="ft07">A conforming&#160;reader&#160;of&#160;a&#160;Tagged&#160;PDF&#160;document may find words by&#160;sequentially examining the&#160;Unicode&#160;<br/>character&#160;stream, perhaps&#160;augmented&#160;by replacement&#160;text&#160;specified with&#160;<b>ActualText</b>&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-623.html">14.9.4,&#160;<br/>“Replacement&#160;Text”).&#160;</a>For&#160;this purpose the spacing characters that would be&#160;present to&#160;separate words&#160;in&#160;a&#160;<br/>pure&#160;text representation&#160;shall be&#160;present in the Tagged PDF representation of the text.&#160;</p>
+<p style="position:absolute;top:377px;left:106px;white-space:nowrap" class="ft04">NOTE&#160;2</p>
+<p style="position:absolute;top:377px;left:183px;white-space:nowrap" class="ft06">The&#160;conforming&#160;reader does not&#160;need&#160;to guess about word&#160;breaks based&#160;on&#160;information&#160;such&#160;as glyph&#160;<br/>positioning&#160;on&#160;the&#160;page, font&#160;changes, or&#160;glyph&#160;sizes.</p>
+<p style="position:absolute;top:427px;left:106px;white-space:nowrap" class="ft04">NOTE&#160;3</p>
+<p style="position:absolute;top:427px;left:183px;white-space:nowrap" class="ft06">The identification of what&#160;constitutes a&#160;word&#160;is unrelated to&#160;how&#160;the text happens to&#160;be&#160;grouped&#160;into&#160;show&#160;<br/>strings. The division into show strings has no semantic&#160;significance. In particular,&#160;a SPACE (U+0020) or other&#160;<br/>word-breaking character is still needed even&#160;if&#160;a word&#160;break&#160;happens to&#160;fall&#160;at&#160;the end&#160;of&#160;a show string.&#160;</p>
+<p style="position:absolute;top:492px;left:106px;white-space:nowrap" class="ft04">NOTE&#160;4</p>
+<p style="position:absolute;top:492px;left:183px;white-space:nowrap" class="ft06">Some&#160;conforming&#160;readers may identify words by simply separating&#160;them at every SPACE character.&#160;Others&#160;<br/>may be&#160;slightly more sophisticated&#160;and&#160;treat punctuation marks such as&#160;hyphens or em dashes as&#160;word&#160;<br/>separators as&#160;well. Still&#160;others may identify possible&#160;line-break opportunities&#160;by using an&#160;algorithm similar to&#160;<br/>the&#160;one in Unicode Standard Annex&#160;#29, Text Boundaries, available&#160;from the Unicode Consortium&#160;(see the&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-753.html">Bibliography).</a>&#160;</p>
+<p style="position:absolute;top:593px;left:106px;white-space:nowrap" class="ft03"><b>14.8.3</b></p>
+<p style="position:absolute;top:593px;left:170px;white-space:nowrap" class="ft03"><b>Basic Layout&#160;Model</b></p>
+<p style="position:absolute;top:629px;left:106px;white-space:nowrap" class="ft07">The basic&#160;layout model begins&#160;with the notion&#160;of&#160;a&#160;<i>reference&#160;area</i>. This is&#160;a&#160;rectangular&#160;region&#160;used as a frame&#160;<br/>or&#160;guide&#160;in which&#160;to&#160;place the document’s&#160;content.&#160;Some of&#160;the standard&#160;structure attributes, such as&#160;<br/><b>StartIndent</b>&#160;and&#160;<b>EndIndent</b>&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-608.html">14.8.5.4.3, “Layout Attributes for&#160;BLSEs”), sh</a>all be&#160;measured from&#160;the&#160;<br/>boundaries&#160;of the reference area. Reference areas are not specified&#160;explicitly&#160;but&#160;are&#160;inferred&#160;from&#160;context.&#160;<br/>Those of interest are generally the&#160;column&#160;area&#160;or&#160;areas in&#160;a general text layout, the outer&#160;bounding&#160;box&#160;of&#160;a&#160;<br/>table and those of its&#160;component cells, and the bounding box&#160;of an&#160;illustration&#160;or other floating&#160;element.&#160;</p>
+<p style="position:absolute;top:750px;left:106px;white-space:nowrap" class="ft04">NOTE&#160;1</p>
+<p style="position:absolute;top:750px;left:183px;white-space:nowrap" class="ft06">Tagged&#160;PDF’s standard structure types and attributes shall&#160;be&#160;interpreted&#160;in&#160;the context&#160;of&#160;a basic layout&#160;<br/>model that describes&#160;the arrangement&#160;of structure elements on the page. This model&#160;is&#160;designed to capture&#160;<br/>the&#160;general&#160;intent&#160;of the&#160;document’s&#160;underlying structure and does&#160;not necessarily&#160;correspond&#160;to the&#160;one&#160;<br/>actually used&#160;for page&#160;layout&#160;by the application&#160;creating the document. (The PDF content stream specifies the&#160;<br/>exact appearance.) The goal is to provide sufficient information&#160;for conforming readers to make their own&#160;<br/>layout decisions&#160;while&#160;preserving the authoring application’s intent as closely as&#160;their own&#160;layout&#160;models allow.&#160;</p>
+<p style="position:absolute;top:863px;left:106px;white-space:nowrap" class="ft04">NOTE 2</p>
+<p style="position:absolute;top:863px;left:183px;white-space:nowrap" class="ft06">The&#160;Tagged PDF&#160;layout&#160;model resembles the&#160;ones used in&#160;markup languages such as HTML, CSS, XSL, and&#160;<br/>RTF,&#160;but does not correspond exactly&#160;to&#160;any of&#160;them. The&#160;model&#160;is deliberately defined&#160;loosely to&#160;allow&#160;<br/>reasonable latitude&#160;in the&#160;interpretation of structure elements&#160;and attributes&#160;when converting&#160;to&#160;other&#160;<br/>document formats.&#160;Some degree of&#160;variation in&#160;the resulting layout&#160;from&#160;one&#160;format&#160;to another&#160;is&#160;to be&#160;<br/>expected.&#160;</p>
+<p style="position:absolute;top:959px;left:106px;white-space:nowrap" class="ft07">The standard structure types are divided&#160;into four&#160;main&#160;categories according to&#160;the roles they play&#160;in page&#160;<br/>layout:&#160;</p>
+<p style="position:absolute;top:1012px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:1012px;left:135px;white-space:nowrap" class="ft07"><i>Grouping elements</i>&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-591.html">14.8.4.2, “Grouping&#160;Elements”</a>) group&#160;other elements&#160;into sequences or&#160;<br/>hierarchies&#160;but&#160;hold no&#160;content directly and have&#160;no&#160;direct&#160;effect on layout.&#160;</p>
+<p style="position:absolute;top:1064px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:1064px;left:135px;white-space:nowrap" class="ft07"><i>Block-level structure&#160;elements</i>&#160;&#160;(<i>BLSE</i>s) (s<a href="src/../output/5eb00ae79d25b/PDF32000_2008-592.html">ee&#160;14.8.4.3,&#160;“Block-Level&#160;Structure Elements”</a>) describe the&#160;<br/>overall&#160;layout&#160;of&#160;content on the page,&#160;proceeding&#160;in the&#160;<i>block-progression&#160;direction</i>.&#160;</p>
+<p style="position:absolute;top:1117px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:1117px;left:135px;white-space:nowrap" class="ft07"><i>Inline-level structure elements</i>&#160;(<i>ILSE</i>s)&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-595.html">14.8.4.4,&#160;“Inline-Level Structure Elements”) d</a>escribe the layout&#160;<br/>of content within a BLSE, proceeding in&#160;the&#160;<i>inline-progression direction</i>.&#160;</p>
+</div>
+</body>
+</html>

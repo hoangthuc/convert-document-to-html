@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 739</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:18px;font-family:Times;color:#000000;}
+	.ft04{font-size:18px;font-family:Times;color:#000000;}
+	.ft05{font-size:16px;font-family:Times;color:#000000;}
+	.ft06{font-size:12px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page739-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008739.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:813px;white-space:nowrap" class="ft02">731</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:426px;white-space:nowrap" class="ft03"><b>Annex &#160;K</b></p>
+<p style="position:absolute;top:150px;left:414px;white-space:nowrap" class="ft04">(informative)</p>
+<p style="position:absolute;top:196px;left:198px;white-space:nowrap" class="ft03"><b>PostScript Compatibility —&#160;Transparent Imaging Model</b></p>
+<p style="position:absolute;top:277px;left:106px;white-space:nowrap" class="ft05"><b>K.1&#160;General</b></p>
+<p style="position:absolute;top:315px;left:106px;white-space:nowrap" class="ft07">Because the&#160;PostScript language&#160;does not support the transparent imaging model,&#160;a&#160;conforming&#160;reader&#160;<br/>desiring&#160;to print&#160;on&#160;a PostScript output&#160;device needs&#160;to&#160;have&#160;some&#160;means for&#160;converting&#160;the&#160;appearance of&#160;a&#160;<br/>document&#160;that&#160;uses&#160;transparency&#160;to&#160;a&#160;purely&#160;opaque&#160;description.&#160;</p>
+<p style="position:absolute;top:403px;left:106px;white-space:nowrap" class="ft05"><b>K.2&#160;Conversion</b></p>
+<p style="position:absolute;top:441px;left:106px;white-space:nowrap" class="ft07">Converting&#160;the&#160;contents&#160;of a page&#160;from&#160;transparent&#160;to&#160;opaque&#160;form&#160;entails some&#160;combination of&#160;shape&#160;<br/>decomposition&#160;and&#160;prerendering&#160;to&#160;flatten&#160;the&#160;stack&#160;of&#160;transparent objects on&#160;the page, performing&#160;all the&#160;<br/>needed transparency&#160;computations,&#160;and describing&#160;the final appearance using&#160;opaque objects only.&#160;Whether&#160;<br/>the&#160;page&#160;contains transparent content needing&#160;to&#160;be flattened can be&#160;determined by&#160;straightforward&#160;analysis of&#160;<br/>the&#160;page’s&#160;resources;&#160;it is&#160;not&#160;necessary&#160;to analyse the content stream&#160;itself. The&#160;conversion&#160;to opaque&#160;form&#160;is&#160;<br/>irreversible, since all information&#160;about how the&#160;transparency effects&#160;were&#160;produced&#160;is&#160;lost.&#160;</p>
+<p style="position:absolute;top:563px;left:106px;white-space:nowrap" class="ft07">To&#160;perform the transparency computations&#160;properly, the&#160;conforming&#160;reader&#160;needs to know the native&#160;colour&#160;<br/>space&#160;of&#160;the&#160;output&#160;device.&#160;This is no problem&#160;when&#160;the conforming&#160;reader controls&#160;the output&#160;device directly.&#160;<br/>However,&#160;when&#160;generating PostScript output,&#160;the&#160;conforming&#160;reader has no way of knowing&#160;the native&#160;colour&#160;<br/>space&#160;of the PostScript&#160;output device. An incorrect assumption&#160;will ruin the calibration&#160;of any CIE-based&#160;<br/>colours appearing&#160;on&#160;the&#160;page. This problem&#160;can be&#160;addressed in&#160;either&#160;of&#160;two ways:&#160;</p>
+<p style="position:absolute;top:667px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:667px;left:135px;white-space:nowrap" class="ft07">If the&#160;entire&#160;page&#160;consists&#160;of CIE-based&#160;colours, flatten the colours to&#160;a single CIE-based colour&#160;space&#160;<br/>rather&#160;than&#160;to&#160;a device&#160;colour&#160;space. The&#160;preferred&#160;colour&#160;space&#160;for this purpose&#160;can easily&#160;be&#160;determined&#160;<br/>if&#160;the&#160;page&#160;has a group&#160;attributes dictionary&#160;(<b>Group</b>&#160;entry&#160;in the page&#160;object) specifying a CIE-based&#160;<br/>colour space (see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-357.html">11.6.6, &#34;Transparency&#160;Group&#160;XObjects&#34;).&#160;</a></p>
+<p style="position:absolute;top:754px;left:106px;white-space:nowrap" class="ft02">•</p>
+<p style="position:absolute;top:754px;left:135px;white-space:nowrap" class="ft07">Otherwise, flatten the&#160;colours to&#160;some&#160;assumed device colour&#160;space with&#160;predetermined&#160;calibration. In the&#160;<br/>generated&#160;PostScript&#160;output, paint the&#160;flattened&#160;colours in a CIE-based&#160;colour&#160;space having&#160;that&#160;<br/>calibration.&#160;</p>
+<p style="position:absolute;top:824px;left:106px;white-space:nowrap" class="ft07">Because the&#160;choice&#160;between using&#160;spot colorants and converting&#160;them&#160;to an&#160;alternate&#160;colour&#160;space affects the&#160;<br/>flattened results&#160;of process colours, a&#160;decision&#160;needs to&#160;be made&#160;during&#160;PostScript&#160;conversion&#160;about the set of&#160;<br/>available&#160;spot colorants to assume. (This differs from&#160;strictly opaque painting,&#160;where the&#160;decision&#160;can be&#160;<br/>deferred&#160;until the generated&#160;PostScript&#160;code&#160;is executed.)&#160;</p>
+</div>
+</body>
+</html>

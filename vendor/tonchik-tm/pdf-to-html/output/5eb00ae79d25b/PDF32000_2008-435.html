@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 435</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:11px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;font-family:Times;color:#000000;}
+	.ft07{font-size:11px;font-family:Times;color:#000000;}
+	.ft08{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft09{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page435-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008435.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:813px;white-space:nowrap" class="ft02">427</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:106px;white-space:nowrap" class="ft03">NOTE</p>
+<p style="position:absolute;top:127px;left:183px;white-space:nowrap" class="ft08">Conforming readers&#160;may support additional, nonstandard&#160;named&#160;actions, but any document using&#160;them is&#160;not&#160;<br/>portable. If the&#160;viewer&#160;encounters a&#160;named&#160;action&#160;that is inappropriate&#160;for a&#160;viewing platform, or&#160;if the viewer&#160;<br/>does not recognize the&#160;name,&#160;it&#160;shall take&#160;no&#160;action.&#160;</p>
+<p style="position:absolute;top:192px;left:106px;white-space:nowrap" class="ft02"><a href="src/../output/5eb00ae79d25b/PDF32000_2008-435.html">Table&#160;212</a>&#160;shows&#160;the action&#160;dictionary entries&#160;specific to named&#160;actions.&#160;</p>
+<p style="position:absolute;top:375px;left:106px;white-space:nowrap" class="ft04"><b>12.6.4.12</b></p>
+<p style="position:absolute;top:375px;left:191px;white-space:nowrap" class="ft04"><b>Set-OCG-State Actions</b></p>
+<p style="position:absolute;top:410px;left:106px;white-space:nowrap" class="ft09">A&#160;<i>set-OCG-state action (PDF&#160;1.5)&#160;</i>sets&#160;the state&#160;of&#160;one or&#160;more&#160;optional&#160;content groups&#160;(s<a href="src/../output/5eb00ae79d25b/PDF32000_2008-230.html">ee&#160;8.11, “Optional&#160;<br/>Content”).</a><a href="src/../output/5eb00ae79d25b/PDF32000_2008-435.html">&#160;Table&#160;213</a>&#160;shows the&#160;action&#160;dictionary&#160;entries&#160;specific to&#160;this type&#160;of&#160;action.</p>
+<p style="position:absolute;top:909px;left:106px;white-space:nowrap" class="ft09">When&#160;a set-OCG-state action&#160;is performed, the&#160;<b>State</b>&#160;array shall&#160;be&#160;processed from&#160;left&#160;to right.&#160;Each&#160;name&#160;<br/>shall be&#160;applied to&#160;subsequent&#160;groups in&#160;the&#160;array&#160;until the&#160;next&#160;name is encountered, as&#160;shown&#160;in the&#160;<br/>following&#160;example.</p>
+<p style="position:absolute;top:979px;left:106px;white-space:nowrap" class="ft03">EXAMPLE&#160;1</p>
+<p style="position:absolute;top:979px;left:212px;white-space:nowrap" class="ft03">&lt;&lt; /S /SetOCGState</p>
+<p style="position:absolute;top:975px;left:334px;white-space:nowrap" class="ft03">&#160;</p>
+<p style="position:absolute;top:995px;left:234px;white-space:nowrap" class="ft03">/State [/OFF 2 0&#160;R&#160;3&#160;0 R /Toggle&#160;16 0 R&#160;19 0 R&#160;/ON&#160;5&#160;0&#160;R]</p>
+<p style="position:absolute;top:991px;left:580px;white-space:nowrap" class="ft03">&#160;</p>
+<p style="position:absolute;top:1010px;left:212px;white-space:nowrap" class="ft03">&gt;&gt;</p>
+<p style="position:absolute;top:1044px;left:106px;white-space:nowrap" class="ft09">A group may appear&#160;more&#160;than&#160;once in&#160;the&#160;<b>State</b>&#160;array;&#160;its state shall&#160;be set each&#160;time&#160;it is encountered, based&#160;<br/>on&#160;the most recent name.&#160;<b>ON</b>,&#160;<b>OFF</b>&#160;and&#160;<b>Toggle</b>&#160;sequences&#160;have no required order.&#160;More than&#160;one sequence&#160;in&#160;<br/>the&#160;array may contain&#160;the&#160;same&#160;name.</p>
+<p style="position:absolute;top:1114px;left:106px;white-space:nowrap" class="ft03">EXAMPLE&#160;2</p>
+<p style="position:absolute;top:1114px;left:212px;white-space:nowrap" class="ft08">If the array contained&#160;[/OFF 1 0 R /Toggle 1 0 R], the&#160;group’s state would be&#160;<b>ON</b>&#160;after the action&#160;was&#160;<br/>performed.</p>
+<p style="position:absolute;top:225px;left:271px;white-space:nowrap" class="ft04"><b>Table&#160;212&#160;– &#160;Additional entries&#160;specific to named actions&#160;&#160;</b></p>
+<p style="position:absolute;top:258px;left:164px;white-space:nowrap" class="ft06"><b>Key</b></p>
+<p style="position:absolute;top:258px;left:218px;white-space:nowrap" class="ft06"><b>Type</b></p>
+<p style="position:absolute;top:258px;left:299px;white-space:nowrap" class="ft06"><b>Value</b></p>
+<p style="position:absolute;top:287px;left:164px;white-space:nowrap" class="ft06"><b>S</b></p>
+<p style="position:absolute;top:287px;left:218px;white-space:nowrap" class="ft03">name</p>
+<p style="position:absolute;top:287px;left:299px;white-space:nowrap" class="ft08"><i>(Required)</i>&#160;The type&#160;of action&#160;that&#160;this&#160;dictionary describes; shall&#160;be&#160;<b>Named</b>&#160;for a&#160;<br/>named action.&#160;</p>
+<p style="position:absolute;top:331px;left:164px;white-space:nowrap" class="ft06"><b>N</b></p>
+<p style="position:absolute;top:331px;left:218px;white-space:nowrap" class="ft03">name</p>
+<p style="position:absolute;top:331px;left:299px;white-space:nowrap" class="ft07"><i>(Required)</i>&#160;The name of the action&#160;that&#160;shall be&#160;performed&#160;(see<a href="src/../output/5eb00ae79d25b/PDF32000_2008-434.html">&#160;Table&#160;211).&#160;</a></p>
+<p style="position:absolute;top:461px;left:243px;white-space:nowrap" class="ft04"><b>Table&#160;213&#160;–&#160;&#160;Additional&#160;entries specific to&#160;a set-OCG-state&#160;action&#160;&#160;</b></p>
+<p style="position:absolute;top:494px;left:156px;white-space:nowrap" class="ft06"><b>Key</b></p>
+<p style="position:absolute;top:494px;left:255px;white-space:nowrap" class="ft06"><b>Type</b></p>
+<p style="position:absolute;top:494px;left:333px;white-space:nowrap" class="ft06"><b>Value</b></p>
+<p style="position:absolute;top:522px;left:156px;white-space:nowrap" class="ft06"><b>S</b></p>
+<p style="position:absolute;top:522px;left:255px;white-space:nowrap" class="ft03">name</p>
+<p style="position:absolute;top:522px;left:333px;white-space:nowrap" class="ft08"><i>(Required)</i>&#160;The type of&#160;action&#160;that&#160;this dictionary&#160;describes; shall be&#160;<br/><b>SetOCGState</b>&#160;for a set-OCG-state action.</p>
+<p style="position:absolute;top:566px;left:156px;white-space:nowrap" class="ft06"><b>State</b></p>
+<p style="position:absolute;top:566px;left:255px;white-space:nowrap" class="ft03">array</p>
+<p style="position:absolute;top:566px;left:333px;white-space:nowrap" class="ft08"><i>(Required)</i>&#160;An array consisting of&#160;any number of sequences beginning with a&#160;<br/>name&#160;object&#160;(<b>ON</b>,&#160;<b>OFF</b>, or&#160;<b>Toggle</b>) followed by one or more optional&#160;content&#160;<br/>group&#160;dictionaries. The array elements&#160;shall be&#160;processed from left&#160;to&#160;right;&#160;<br/>each name shall be applied to&#160;the&#160;subsequent&#160;groups until&#160;the&#160;next name&#160;is&#160;<br/>encountered:</p>
+<p style="position:absolute;top:650px;left:333px;white-space:nowrap" class="ft06"><b>ON</b>&#160;</p>
+<p style="position:absolute;top:650px;left:397px;white-space:nowrap" class="ft03">sets&#160;the state&#160;of&#160;subsequent groups&#160;to&#160;<b>ON</b></p>
+<p style="position:absolute;top:670px;left:333px;white-space:nowrap" class="ft06"><b>OFF</b>&#160;</p>
+<p style="position:absolute;top:670px;left:397px;white-space:nowrap" class="ft03">sets&#160;the state&#160;of&#160;subsequent groups&#160;to&#160;<b>OFF</b></p>
+<p style="position:absolute;top:690px;left:333px;white-space:nowrap" class="ft06"><b>Toggle</b>&#160;</p>
+<p style="position:absolute;top:690px;left:397px;white-space:nowrap" class="ft03">reverses the state of subsequent groups.</p>
+<p style="position:absolute;top:719px;left:156px;white-space:nowrap" class="ft06"><b>PreserveRB</b></p>
+<p style="position:absolute;top:719px;left:255px;white-space:nowrap" class="ft03">boolean</p>
+<p style="position:absolute;top:719px;left:333px;white-space:nowrap" class="ft08"><i>(Optional)</i>&#160;If&#160;<b>true</b>, indicates that&#160;radio-button&#160;state relationships between&#160;<br/>optional content groups&#160;(as specified&#160;by the&#160;<b>RBGroups</b>&#160;entry in the&#160;current&#160;<br/>configuration dictio<a href="src/../output/5eb00ae79d25b/PDF32000_2008-237.html">nary; see&#160;Table&#160;101) shou</a>ld be&#160;preserved when the&#160;<br/>states in&#160;the&#160;<b>State</b>&#160;array are&#160;applied. That is,&#160;if a&#160;group&#160;is set&#160;to&#160;<b>ON</b>&#160;(either by&#160;<br/><b>ON</b>&#160;or&#160;<b>Toggle</b>)&#160;during processing&#160;of&#160;the&#160;<b>State</b>&#160;array,&#160;any other groups&#160;<br/>belonging to the same radio-button&#160;group&#160;shall&#160;be&#160;turned&#160;<b>OFF</b>. If a group is&#160;<br/>set to&#160;<b>OFF</b>, there is&#160;no&#160;effect on&#160;other&#160;groups.</p>
+<p style="position:absolute;top:833px;left:333px;white-space:nowrap" class="ft08">If&#160;&#160;<b>PreserveRB</b>&#160;is&#160;<b>false</b>, radio-button&#160;state&#160;relationships, if any,&#160;shall&#160;be<br/>ignored.</p>
+<p style="position:absolute;top:869px;left:333px;white-space:nowrap" class="ft03">Default value:&#160;<b>true</b>.</p>
+</div>
+</body>
+</html>

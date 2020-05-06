@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 684</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:16px;font-family:Times;color:#000000;}
+	.ft04{font-size:11px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft07{font-size:11px;line-height:14px;font-family:Times;color:#000000;}
+	.ft08{font-size:11px;line-height:16px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page684-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008684.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">676</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:127px;left:55px;white-space:nowrap" class="ft01">•</p>
+<p style="position:absolute;top:127px;left:84px;white-space:nowrap" class="ft05"><a href="src/../output/5eb00ae79d25b/PDF32000_2008-703.html">Annex G</a>, outlines strategies&#160;for accessing Linearized&#160;PDF over&#160;a network,&#160;which&#160;in turn&#160;determine the&#160;<br/>optimal way&#160;to organize the PDF file.&#160;</p>
+<p style="position:absolute;top:179px;left:55px;white-space:nowrap" class="ft05">The reader is&#160;assumed to be&#160;familiar&#160;with the basic architecture&#160;of the Web,&#160;including terms such as&#160;URL,&#160;<br/>HTTP, and MIME.&#160;</p>
+<p style="position:absolute;top:250px;left:55px;white-space:nowrap" class="ft03"><b>F.2</b></p>
+<p style="position:absolute;top:250px;left:98px;white-space:nowrap" class="ft03"><b>Background&#160;and&#160;Assumptions</b></p>
+<p style="position:absolute;top:288px;left:55px;white-space:nowrap" class="ft04">NOTE&#160;1</p>
+<p style="position:absolute;top:288px;left:132px;white-space:nowrap" class="ft06">The&#160;principal problem addressed by&#160;the&#160;Linearized&#160;PDF design&#160;is the&#160;access&#160;of PDF documents through the&#160;<br/>Web.&#160;This environment&#160;has&#160;the&#160;following important properties:&#160;</p>
+<p style="position:absolute;top:338px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:338px;left:157px;white-space:nowrap" class="ft06">The&#160;access&#160;protocol (HTTP) is a transaction consisting of a request and a response.&#160;The&#160;conforming&#160;<br/>reader presents a request in the&#160;form of a URL, and&#160;the server sends a response consisting of&#160;one or&#160;<br/>more&#160;MIME-tagged&#160;data&#160;blocks.&#160;</p>
+<p style="position:absolute;top:399px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:399px;left:157px;white-space:nowrap" class="ft06">After a&#160;transaction&#160;has&#160;completed, obtaining&#160;more&#160;data requires a&#160;new request-response transaction. The&#160;<br/>connection between&#160;conforming&#160;reader and&#160;server does not&#160;ordinarily persist beyond the&#160;end&#160;of a&#160;<br/>transaction, although&#160;some implementations may attempt to cache the open connection to expedite&#160;<br/>subsequent transactions with the same&#160;server.&#160;</p>
+<p style="position:absolute;top:476px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:476px;left:157px;white-space:nowrap" class="ft06">Round-trip&#160;delay can&#160;be&#160;significant. A request-response&#160;transaction&#160;can&#160;take&#160;up&#160;to&#160;several&#160;seconds,&#160;<br/>independent of&#160;the amount&#160;of&#160;data requested.&#160;</p>
+<p style="position:absolute;top:522px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:522px;left:157px;white-space:nowrap" class="ft07">The&#160;data&#160;rate may be limited. A typical&#160;bottleneck&#160;is a&#160;slow link&#160;between&#160;the conforming&#160;reader and the&#160;<br/>Internet service provider.&#160;</p>
+<p style="position:absolute;top:569px;left:132px;white-space:nowrap" class="ft08">These&#160;properties are generally shared by other wide-area&#160;network architectures besides the Web.&#160;<br/>Also, CD-ROMs share some&#160;of&#160;these properties, since they have&#160;relatively&#160;slow seek&#160;times and lim-<br/>ited&#160;data&#160;rates&#160;compared&#160;to&#160;magnetic&#160;media.&#160;The&#160;remainder&#160;of&#160;this&#160;annex&#160;focuses&#160;on&#160;the&#160;Web.&#160;</p>
+<p style="position:absolute;top:627px;left:132px;white-space:nowrap" class="ft08">Some&#160;additional&#160;properties&#160;of the&#160;HTTP&#160;protocol&#160;are relevant to the problem&#160;of&#160;accessing&#160;PDF files&#160;<br/>efficiently. These&#160;properties&#160;may not all&#160;be&#160;shared by&#160;other protocols&#160;or&#160;network&#160;environments.&#160;</p>
+<p style="position:absolute;top:669px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:669px;left:157px;white-space:nowrap" class="ft06">When&#160;a PDF&#160;file&#160;is initially accessed (such&#160;as by&#160;following&#160;a URL hyperlink from&#160;some&#160;other document),&#160;<br/>the&#160;file type is not&#160;known to the conforming reader. Therefore, the conforming&#160;reader initiates a&#160;transaction&#160;<br/>to&#160;retrieve the&#160;entire document&#160;and then&#160;inspects&#160;the MIME tag&#160;of the response as&#160;it arrives. Only at that&#160;<br/>point&#160;is the&#160;document known&#160;to&#160;be&#160;PDF. Additionally, with a&#160;properly configured&#160;server environment, the&#160;<br/>length&#160;of the document becomes&#160;known at&#160;that&#160;time.&#160;</p>
+<p style="position:absolute;top:761px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:761px;left:157px;white-space:nowrap" class="ft06">The&#160;conforming reader may abort a response while the transaction&#160;is still in progress if it decides that&#160;the&#160;<br/>remainder&#160;of&#160;the data&#160;is not of&#160;immediate interest.&#160;In HTTP,&#160;aborting the transaction&#160;requires closing the&#160;<br/>connection,&#160;which interferes with&#160;the strategy of caching&#160;the&#160;open connection between transactions.&#160;</p>
+<p style="position:absolute;top:822px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:822px;left:157px;white-space:nowrap" class="ft07">The&#160;conforming&#160;reader may&#160;request retrieval of&#160;portions of a document&#160;by&#160;specifying one&#160;or&#160;more byte&#160;<br/>ranges&#160;(by offset&#160;and&#160;count) in&#160;the HTTP request headers. Each&#160;range&#160;can be&#160;relative to either the&#160;<br/>beginning&#160;or&#160;the&#160;end of&#160;the file. The&#160;conforming reader&#160;may specify as&#160;many&#160;ranges as it&#160;wants in the&#160;<br/>request,&#160;and the response&#160;consists&#160;of multiple&#160;blocks, each properly&#160;tagged.&#160;</p>
+<p style="position:absolute;top:899px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:899px;left:157px;white-space:nowrap" class="ft07">The&#160;conforming reader&#160;may initiate multiple&#160;concurrent&#160;transactions&#160;in&#160;an&#160;attempt to obtain multiple&#160;<br/>responses&#160;in&#160;parallel. This is&#160;commonly&#160;done, for instance, to&#160;retrieve&#160;inline images referenced&#160;from an&#160;<br/>HTML document. This&#160;strategy is not&#160;always reliable&#160;and may&#160;backfire&#160;if&#160;the transactions interfere with&#160;<br/>each other by competing&#160;for scarce resources in&#160;the server or the&#160;communication&#160;channel.&#160;</p>
+<p style="position:absolute;top:975px;left:55px;white-space:nowrap" class="ft04">NOTE&#160;2</p>
+<p style="position:absolute;top:975px;left:132px;white-space:nowrap" class="ft06">Extensive&#160;experimentation has determined that having multiple concurrent&#160;transactions does not work very&#160;<br/>well for PDF in some&#160;important environments. Therefore, Linearized&#160;PDF&#160;is&#160;designed&#160;to&#160;enable&#160;good&#160;<br/>performance to&#160;be achieved using&#160;only one&#160;transaction at&#160;a&#160;time. In&#160;particular,&#160;this&#160;means&#160;that the&#160;conforming&#160;<br/>reader&#160;needs to have sufficient information&#160;to determine&#160;the&#160;byte ranges&#160;for&#160;all&#160;the objects required&#160;to&#160;display&#160;<br/>a&#160;given&#160;page&#160;of the&#160;PDF&#160;file&#160;so&#160;that&#160;it can&#160;specify all&#160;those&#160;byte&#160;ranges in&#160;a single request.&#160;</p>
+<p style="position:absolute;top:1072px;left:55px;white-space:nowrap" class="ft04">NOTE 3</p>
+<p style="position:absolute;top:1072px;left:132px;white-space:nowrap" class="ft04">The following&#160;additional&#160;assumptions are made about the&#160;conforming reader&#160;and its&#160;local environment:&#160;</p>
+<p style="position:absolute;top:1106px;left:132px;white-space:nowrap" class="ft04">•</p>
+<p style="position:absolute;top:1106px;left:157px;white-space:nowrap" class="ft06">The&#160;conforming&#160;reader has plenty of local temporary&#160;storage&#160;available.&#160;It should&#160;rarely&#160;need&#160;to retrieve&#160;a&#160;<br/>given portion of&#160;a&#160;PDF&#160;document&#160;more than once&#160;from the&#160;server.&#160;</p>
+</div>
+</body>
+</html>

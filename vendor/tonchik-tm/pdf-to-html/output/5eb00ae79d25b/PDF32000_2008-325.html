@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 325</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:11px;font-family:Times;color:#000000;}
+	.ft04{font-size:12px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft08{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page325-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008325.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:813px;white-space:nowrap" class="ft02">317</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:106px;white-space:nowrap" class="ft03">NOTE 1</p>
+<p style="position:absolute;top:127px;left:183px;white-space:nowrap" class="ft03">Smaller values&#160;yield greater precision at the&#160;cost of&#160;more&#160;computation.&#160;</p>
+<p style="position:absolute;top:161px;left:106px;white-space:nowrap" class="ft03">NOTE&#160;2</p>
+<p style="position:absolute;top:161px;left:183px;white-space:nowrap" class="ft06">Although&#160;the figure exaggerates&#160;the difference between&#160;the curved&#160;and&#160;flattened&#160;paths for the&#160;sake of&#160;clarity,&#160;<br/>the&#160;purpose&#160;of the&#160;flatness&#160;tolerance is&#160;to&#160;control&#160;the precision&#160;of&#160;curve&#160;rendering, not to&#160;draw&#160;inscribed&#160;<br/>polygons. If the parameter’s value is&#160;large enough&#160;to cause visible straight line&#160;segments&#160;to appear, the result&#160;<br/>is&#160;unpredictable.&#160;</p>
+<p style="position:absolute;top:490px;left:362px;white-space:nowrap" class="ft04"><b>Figure&#160;54&#160;–&#160;&#160;Flatness tolerance</b></p>
+<p style="position:absolute;top:530px;left:106px;white-space:nowrap" class="ft04"><b>10.6.3</b></p>
+<p style="position:absolute;top:530px;left:170px;white-space:nowrap" class="ft04"><b>Smoothness Tolerance</b></p>
+<p style="position:absolute;top:565px;left:106px;white-space:nowrap" class="ft08">The&#160;&#160;<i>smoothness tolerance</i>&#160;&#160;<i>(PDF&#160;1.3)</i>&#160;controls the quality&#160;of&#160;smooth shading (type&#160;2 patterns&#160;and the&#160;<b>sh<br/></b>operator) and thus&#160;indirectly controls the rendering&#160;performance. Smoothness is the&#160;allowable colour&#160;error&#160;<br/>between a&#160;shading approximated&#160;by piecewise&#160;linear&#160;interpolation and the&#160;true&#160;value of&#160;a&#160;(possibly nonlinear)&#160;<br/>shading&#160;function. The&#160;error&#160;shall be&#160;measured&#160;for each colour&#160;component, and&#160;the&#160;maximum independent error&#160;<br/>shall&#160;be&#160;used. The allowable&#160;error&#160;(or&#160;tolerance)&#160;shall be&#160;expressed as a fraction&#160;of&#160;the&#160;range&#160;of&#160;the&#160;colour&#160;<br/>component, from&#160;0.0&#160;to&#160;1.0. Thus, a smoothness tolerance&#160;of&#160;0.1 represents&#160;a tolerance&#160;of 10&#160;percent in&#160;each&#160;<br/>colour component. Smoothness may be specified as the value&#160;of&#160;the&#160;<b>SM</b>&#160;entry&#160;in&#160;a&#160;graphics state parameter&#160;<br/>dictionary&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-136.html">Table 58).</a>&#160;</p>
+<p style="position:absolute;top:721px;left:106px;white-space:nowrap" class="ft03">EXAMPLE</p>
+<p style="position:absolute;top:721px;left:212px;white-space:nowrap" class="ft06">Each output device may have internal limits on the maximum and minimum tolerances attainable. setting&#160;<br/>smoothness&#160;to 1.0&#160;may result&#160;in an internal smoothness of&#160;0.5 on&#160;a high-quality&#160;colour device,&#160;while&#160;<br/>setting it&#160;to 0.0&#160;on the&#160;same device&#160;may result in&#160;an&#160;internal&#160;smoothness of 0.01 if&#160;an&#160;error of&#160;that&#160;<br/>magnitude&#160;is&#160;imperceptible&#160;on&#160;the&#160;device.&#160;</p>
+<p style="position:absolute;top:802px;left:106px;white-space:nowrap" class="ft03">NOTE&#160;1</p>
+<p style="position:absolute;top:802px;left:183px;white-space:nowrap" class="ft06">The smoothness tolerance&#160;may&#160;also interact&#160;with the&#160;accuracy of colour&#160;conversion.&#160;In&#160;the&#160;case of&#160;a colour&#160;<br/>conversion&#160;defined&#160;by a sampled function, the&#160;conversion&#160;function is&#160;unknown. Thus&#160;the&#160;error may be sampled&#160;<br/>at&#160;too&#160;low a&#160;frequency, in&#160;which&#160;case the&#160;accuracy defined by&#160;the smoothness tolerance&#160;cannot be&#160;<br/>guaranteed. In&#160;most&#160;cases, however,&#160;where the&#160;conversion function&#160;is smooth&#160;and continuous,&#160;the accuracy&#160;<br/>should&#160;be&#160;within the specified tolerance.&#160;</p>
+<p style="position:absolute;top:899px;left:106px;white-space:nowrap" class="ft03">NOTE&#160;2</p>
+<p style="position:absolute;top:899px;left:183px;white-space:nowrap" class="ft06">The&#160;effect of the&#160;smoothness&#160;tolerance is&#160;similar to&#160;that&#160;of&#160;the flatness&#160;tolerance.&#160;However,&#160;that flatness is&#160;<br/>measured&#160;in device-dependent units&#160;of pixel width, whereas&#160;smoothness is&#160;measured&#160;as a&#160;fraction&#160;of colour&#160;<br/>component range.&#160;</p>
+<p style="position:absolute;top:969px;left:106px;white-space:nowrap" class="ft04"><b>10.6.4</b></p>
+<p style="position:absolute;top:969px;left:170px;white-space:nowrap" class="ft04"><b>Scan Conversion&#160;Rules</b></p>
+<p style="position:absolute;top:1004px;left:106px;white-space:nowrap" class="ft08">The following rules&#160;determine&#160;which device pixels a painting&#160;operation&#160;affects.&#160;All references to coordinates&#160;<br/>and pixels&#160;are in device space. A&#160;<i>shape</i>&#160;is a&#160;path&#160;to&#160;be&#160;painted&#160;with&#160;the&#160;current&#160;colour&#160;or&#160;with&#160;an&#160;image. Its&#160;<br/>coordinates are mapped into device&#160;space but not rounded&#160;to device&#160;pixel boundaries.&#160;At this&#160;level,&#160;curves&#160;<br/>have been flattened&#160;to&#160;sequences&#160;of&#160;straight lines, and&#160;all “insideness”&#160;computations&#160;have&#160;been&#160;performed.&#160;</p>
+<p style="position:absolute;top:1091px;left:106px;white-space:nowrap" class="ft08">Pixel boundaries&#160;always fall on&#160;integer coordinates&#160;in&#160;device&#160;space.&#160;A pixel is&#160;a&#160;square&#160;region&#160;identified&#160;by&#160;the&#160;<br/>location&#160;of&#160;its corner&#160;with&#160;minimum horizontal&#160;and&#160;vertical coordinates. The&#160;region&#160;is&#160;<i>half-open</i>, meaning&#160;that it&#160;<br/>includes&#160;its lower&#160;but not its upper&#160;boundaries.&#160;More&#160;precisely,&#160;for&#160;any point whose real-number&#160;coordinates&#160;</p>
+<p style="position:absolute;top:367px;left:426px;white-space:nowrap" class="ft00">Flatness error</p>
+<p style="position:absolute;top:380px;left:435px;white-space:nowrap" class="ft00">tolerance</p>
+</div>
+</body>
+</html>

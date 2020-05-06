@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 94</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:14px;font-family:Times;color:#000000;}
+	.ft01{font-size:12px;font-family:Times;color:#000000;}
+	.ft02{font-size:9px;font-family:Times;color:#000000;}
+	.ft03{font-size:12px;font-family:Times;color:#000000;}
+	.ft04{font-size:11px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;font-family:Times;color:#000000;}
+	.ft06{font-size:11px;font-family:Times;color:#000000;}
+	.ft07{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+	.ft08{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page94-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008094.png" alt="background image"/>
+<p style="position:absolute;top:63px;left:55px;white-space:nowrap" class="ft00"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:1197px;left:55px;white-space:nowrap" class="ft01">86</p>
+<p style="position:absolute;top:1199px;left:341px;white-space:nowrap" class="ft02">©&#160;</p>
+<p style="position:absolute;top:1196px;left:353px;white-space:nowrap" class="ft00"><b>Adobe&#160;Systems Incorporated 2008 –&#160;All&#160;rights reserved</b></p>
+<p style="position:absolute;top:385px;left:55px;white-space:nowrap" class="ft01">The string&#160;types described&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-93.html">in&#160;Table&#160;35&#160;specify in</a>creasingly&#160;specific encoding&#160;schemes,&#160;as&#160;shown&#160;in&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-94.html">Figure 7.&#160;</a></p>
+<p style="position:absolute;top:640px;left:260px;white-space:nowrap" class="ft03"><b>Figure&#160;7&#160;–&#160;&#160;Relationship&#160;between&#160;string&#160;types</b></p>
+<p style="position:absolute;top:680px;left:55px;white-space:nowrap" class="ft03"><b>7.9.2.2</b></p>
+<p style="position:absolute;top:680px;left:119px;white-space:nowrap" class="ft03"><b>Text&#160;String&#160;Type&#160;</b></p>
+<p style="position:absolute;top:715px;left:55px;white-space:nowrap" class="ft07">The&#160;text string&#160;type&#160;shall be&#160;used&#160;for character&#160;strings&#160;that contain information intended to be&#160;human-readable,&#160;<br/>such&#160;as text annotations,&#160;bookmark names,&#160;article names, document information,&#160;and so forth.&#160;</p>
+<p style="position:absolute;top:768px;left:55px;white-space:nowrap" class="ft04">NOTE&#160;1</p>
+<p style="position:absolute;top:768px;left:132px;white-space:nowrap" class="ft04">Text&#160;string type is a subtype&#160;of&#160;string&#160;type and represents&#160;data&#160;encoded using specific conventions.</p>
+<p style="position:absolute;top:802px;left:55px;white-space:nowrap" class="ft07">The&#160;text string&#160;type&#160;shall&#160;be&#160;used for character&#160;strings that&#160;shall&#160;be&#160;encoded in either&#160;<b>PDFDocEncoding</b>&#160;or&#160;the&#160;<br/>UTF-16BE&#160;Unicode character encoding&#160;scheme.&#160;<b>PDFDocEncoding</b>&#160;can&#160;encode&#160;all of&#160;the&#160;ISO Latin 1&#160;<br/>character set and&#160;is documented in&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-659.html">Annex D</a>. UTF-16BE can&#160;encode&#160;all Unicode characters. UTF-16BE and&#160;<br/>Unicode&#160;character&#160;encoding are&#160;described&#160;in&#160;the&#160;<i>Unicode Standard</i>&#160;by the&#160;Unicode Consortium&#160;(see&#160;the&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-753.html">Bibliography).</a>&#160;</p>
+<p style="position:absolute;top:906px;left:55px;white-space:nowrap" class="ft04">NOTE 2</p>
+<p style="position:absolute;top:906px;left:132px;white-space:nowrap" class="ft06"><b>PDFDocEncoding</b>&#160;does not support all&#160;Unicode characters whereas UTF-16BE does.</p>
+<p style="position:absolute;top:940px;left:55px;white-space:nowrap" class="ft07">For&#160;text&#160;strings encoded&#160;in Unicode,&#160;the&#160;first two&#160;bytes shall be&#160;254 followed by&#160;255. These two bytes represent&#160;<br/>the Unicode byte order marker, U+FEFF, indicating&#160;that the string&#160;is&#160;encoded&#160;in the UTF-16BE&#160;(big-endian)&#160;<br/>encoding&#160;scheme&#160;specified&#160;in&#160;the&#160;Unicode&#160;standard.&#160;</p>
+<p style="position:absolute;top:1009px;left:55px;white-space:nowrap" class="ft04">NOTE&#160;3</p>
+<p style="position:absolute;top:1009px;left:132px;white-space:nowrap" class="ft08">This mechanism precludes&#160;beginning a&#160;string using&#160;<b>PDFDocEncoding&#160;&#160;</b>with&#160;the two characters thorn&#160;<br/>ydieresis,&#160;which&#160;is&#160;unlikely to&#160;be&#160;a meaningful&#160;beginning&#160;of a word&#160;or phrase.</p>
+<p style="position:absolute;top:1059px;left:55px;white-space:nowrap" class="ft07">Conforming&#160;readers that&#160;process PDF&#160;files containing&#160;Unicode&#160;text strings shall&#160;be&#160;prepared&#160;to&#160;handle&#160;<br/>supplementary&#160;characters; that is, characters&#160;requiring more&#160;than&#160;two bytes&#160;to&#160;represent.</p>
+<p style="position:absolute;top:1111px;left:55px;white-space:nowrap" class="ft07">An&#160;escape sequence&#160;may appear&#160;anywhere&#160;in&#160;a&#160;Unicode&#160;text string&#160;to&#160;indicate the language&#160;in&#160;which&#160;<br/>subsequent&#160;text shall be&#160;written.</p>
+<p style="position:absolute;top:188px;left:150px;white-space:nowrap" class="ft04">ASCII string</p>
+<p style="position:absolute;top:188px;left:347px;white-space:nowrap" class="ft08">Shall&#160;be&#160;used for characters&#160;that&#160;are represented in&#160;a&#160;<br/>single byte&#160;using ASCII encoding.&#160;</p>
+<p style="position:absolute;top:233px;left:150px;white-space:nowrap" class="ft04">byte string</p>
+<p style="position:absolute;top:233px;left:347px;white-space:nowrap" class="ft08">Shall&#160;be&#160;used&#160;for&#160;binary&#160;data&#160;represented as&#160;a&#160;series&#160;of&#160;<br/>bytes,&#160;where&#160;each&#160;byte&#160;can&#160;be&#160;any value&#160;representable&#160;in&#160;<br/>8 bits. The&#160;string&#160;may represent characters but the&#160;<br/>encoding&#160;is not known. The&#160;bytes of the string need not&#160;<br/>represent&#160;characters. This&#160;type&#160;shall&#160;be used for data&#160;<br/>such as&#160;MD5&#160;hash values, signature certificates, and&#160;Web&#160;<br/>Capture&#160;identification&#160;values.&#160;</p>
+<p style="position:absolute;top:347px;left:347px;white-space:nowrap" class="ft04">This&#160;type is describ<a href="src/../output/5eb00ae79d25b/PDF32000_2008-95.html">ed in&#160;7.9.2.4,&#160;&#34;Byte String&#160;Type.&#34;&#160;</a></p>
+<p style="position:absolute;top:127px;left:266px;white-space:nowrap" class="ft03"><b>Table&#160;35&#160;– &#160;String Object&#160;Types &#160;(continued)</b></p>
+<p style="position:absolute;top:160px;left:150px;white-space:nowrap" class="ft06"><b>Type</b></p>
+<p style="position:absolute;top:160px;left:347px;white-space:nowrap" class="ft06"><b>Description</b></p>
+<p style="position:absolute;top:574px;left:175px;white-space:nowrap" class="ft02">PDFDocEncoded&#160;</p>
+<p style="position:absolute;top:587px;left:207px;white-space:nowrap" class="ft02">string</p>
+<p style="position:absolute;top:435px;left:425px;white-space:nowrap" class="ft02">string types&#160;</p>
+<p style="position:absolute;top:505px;left:280px;white-space:nowrap" class="ft02">text string</p>
+<p style="position:absolute;top:574px;left:303px;white-space:nowrap" class="ft02">UTF-16BE encoded string with&#160;</p>
+<p style="position:absolute;top:587px;left:311px;white-space:nowrap" class="ft02">a leading byte order marker</p>
+<p style="position:absolute;top:505px;left:426px;white-space:nowrap" class="ft02">ASCII string</p>
+<p style="position:absolute;top:505px;left:584px;white-space:nowrap" class="ft02">byte string</p>
+</div>
+</body>
+</html>

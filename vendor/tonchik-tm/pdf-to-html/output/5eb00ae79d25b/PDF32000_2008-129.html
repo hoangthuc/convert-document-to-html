@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>Page 129</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft00{font-size:9px;font-family:Times;color:#000000;}
+	.ft01{font-size:14px;font-family:Times;color:#000000;}
+	.ft02{font-size:12px;font-family:Times;color:#000000;}
+	.ft03{font-size:11px;font-family:Times;color:#000000;}
+	.ft04{font-size:11px;font-family:Times;color:#000000;}
+	.ft05{font-size:12px;font-family:Times;color:#000000;}
+	.ft06{font-size:12px;font-family:Times;color:#000000;}
+	.ft07{font-size:11px;font-family:Times;color:#000000;}
+	.ft08{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft09{font-size:11px;line-height:15px;font-family:Times;color:#000000;}
+	.ft010{font-size:12px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page129-div" style="position:relative;width:892px;height:1263px;">
+<img width="892" height="1263" src="src/../output/5eb00ae79d25b/PDF32000_2008129.png" alt="background image"/>
+<p style="position:absolute;top:1199px;left:106px;white-space:nowrap" class="ft00">©&#160;</p>
+<p style="position:absolute;top:1196px;left:118px;white-space:nowrap" class="ft01"><b>Adobe Systems Incorporated&#160;2008 – All rights&#160;reserved</b></p>
+<p style="position:absolute;top:1197px;left:813px;white-space:nowrap" class="ft02">121</p>
+<p style="position:absolute;top:63px;left:697px;white-space:nowrap" class="ft01"><b>PDF 32000-1:2008</b></p>
+<p style="position:absolute;top:127px;left:183px;white-space:nowrap" class="ft09">coordinates. Not all transformations are&#160;invertible, however. For example,&#160;if&#160;a matrix contains&#160;<i>a</i>,&#160;<i>b</i>,&#160;<i>c</i>, and&#160;<i>d<br/></i>elements&#160;that are&#160;all&#160;zero, all&#160;user&#160;coordinates map&#160;to the same&#160;device&#160;coordinates and there&#160;is no unique&#160;<br/>inverse transformation. Such noninvertible transformations are&#160;not very&#160;useful and&#160;generally arise&#160;from&#160;<br/>unintended&#160;operations, such&#160;as&#160;scaling&#160;by&#160;0. Use&#160;of&#160;a&#160;noninvertible&#160;matrix when&#160;painting graphics objects&#160;can&#160;<br/>result in&#160;unpredictable&#160;behaviour.&#160;</p>
+<p style="position:absolute;top:228px;left:106px;white-space:nowrap" class="ft01"><b>8.4</b></p>
+<p style="position:absolute;top:228px;left:149px;white-space:nowrap" class="ft01"><b>Graphics State</b></p>
+<p style="position:absolute;top:269px;left:106px;white-space:nowrap" class="ft05"><b>8.4.1</b></p>
+<p style="position:absolute;top:269px;left:170px;white-space:nowrap" class="ft05"><b>General</b></p>
+<p style="position:absolute;top:305px;left:106px;white-space:nowrap" class="ft010">A conforming&#160;reader&#160;shall maintain&#160;an&#160;internal&#160;data&#160;structure called&#160;the&#160;<i>graphics state</i>&#160;that holds&#160;current&#160;<br/>graphics control parameters. These parameters&#160;define&#160;the global framework within&#160;which&#160;the graphics&#160;<br/>operators execute.&#160;</p>
+<p style="position:absolute;top:374px;left:106px;white-space:nowrap" class="ft03">EXAMPLE 1</p>
+<p style="position:absolute;top:374px;left:212px;white-space:nowrap" class="ft09">The&#160;<b>f</b>&#160;(fill) operator&#160;implicitly&#160;uses&#160;the&#160;current colour&#160;parameter,&#160;and the&#160;<b>S</b>&#160;(stroke) operator&#160;additionally&#160;<br/>uses&#160;the current line&#160;width parameter from&#160;the graphics state.&#160;</p>
+<p style="position:absolute;top:424px;left:106px;white-space:nowrap" class="ft010">A conforming&#160;reader&#160;shall initialize the&#160;graphic state&#160;at the beginning&#160;of each&#160;page&#160;with&#160;the values specified in&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-129.html">Table&#160;52&#160;an</a><a href="src/../output/5eb00ae79d25b/PDF32000_2008-131.html">d&#160;Table&#160;53</a>.&#160;&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-129.html">Table&#160;52</a>&#160;lists&#160;those graphics state parameters&#160;that&#160;are device-independent and are&#160;<br/>appropriate&#160;to specify in&#160;page&#160;descriptions. The&#160;parameters&#160;listed in<a href="src/../output/5eb00ae79d25b/PDF32000_2008-131.html">&#160;Table&#160;53&#160;</a>control details of&#160;the rendering&#160;<br/>(scan&#160;conversion)&#160;process and are device-dependent; a&#160;page&#160;description that&#160;is intended&#160;to be&#160;device-<br/>independent should not be&#160;written&#160;to&#160;modify&#160;these parameters.&#160;</p>
+<p style="position:absolute;top:526px;left:263px;white-space:nowrap" class="ft05"><b>Table&#160;52&#160;– &#160;Device-Independent&#160;Graphics&#160;State Parameters&#160;&#160;</b></p>
+<p style="position:absolute;top:559px;left:164px;white-space:nowrap" class="ft07"><b>Parameter</b></p>
+<p style="position:absolute;top:559px;left:299px;white-space:nowrap" class="ft07"><b>Type</b></p>
+<p style="position:absolute;top:559px;left:416px;white-space:nowrap" class="ft07"><b>Value</b></p>
+<p style="position:absolute;top:587px;left:164px;white-space:nowrap" class="ft03">CTM</p>
+<p style="position:absolute;top:587px;left:299px;white-space:nowrap" class="ft03">array</p>
+<p style="position:absolute;top:587px;left:416px;white-space:nowrap" class="ft09">The&#160;<i>current&#160;transformation&#160;matrix</i>, which&#160;maps&#160;positions&#160;from&#160;<br/>user&#160;coordinates&#160;to&#160;device coordinates (see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-122.html">8.3, &#34;Coordinate</a>&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-122.html">Systems&#34;</a>). This matrix is&#160;modified&#160;by&#160;each&#160;application&#160;of the&#160;<br/>coordinate transformation operator,&#160;<b>cm</b>. Initial value:&#160;a&#160;matrix&#160;<br/>that transforms default user coordinates to device&#160;<br/>coordinates.&#160;</p>
+<p style="position:absolute;top:695px;left:164px;white-space:nowrap" class="ft03">clipping&#160;path</p>
+<p style="position:absolute;top:695px;left:299px;white-space:nowrap" class="ft03">(internal)</p>
+<p style="position:absolute;top:695px;left:416px;white-space:nowrap" class="ft09">The&#160;<i>current&#160;clipping&#160;path</i>, which defines the&#160;boundary against&#160;<br/>which&#160;all output shall be cropped&#160;(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-145.html">8.5.4, &#34;Clipping&#160;Path</a>&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-145.html">Operators&#34;</a>).&#160;Initial value:&#160;the&#160;boundary of the entire&#160;<br/>imageable portion&#160;of&#160;the output page.&#160;</p>
+<p style="position:absolute;top:770px;left:164px;white-space:nowrap" class="ft03">color&#160;space</p>
+<p style="position:absolute;top:770px;left:299px;white-space:nowrap" class="ft03">name&#160;or&#160;array</p>
+<p style="position:absolute;top:770px;left:416px;white-space:nowrap" class="ft09">The&#160;&#160;<i>current colour space</i>&#160;in&#160;which colour&#160;values shall be<br/>interpreted (s<a href="src/../output/5eb00ae79d25b/PDF32000_2008-146.html">ee&#160;8.6,&#160;&#34;Colour Spaces&#34;). T</a>here&#160;are two&#160;<br/>separate&#160;colour&#160;space parameters: one&#160;for&#160;stroking&#160;and&#160;one&#160;<br/>for&#160;all other painting operations. Initial value:&#160;<b>DeviceGray</b>.&#160;</p>
+<p style="position:absolute;top:846px;left:164px;white-space:nowrap" class="ft03">color</p>
+<p style="position:absolute;top:846px;left:299px;white-space:nowrap" class="ft03">(various)</p>
+<p style="position:absolute;top:846px;left:416px;white-space:nowrap" class="ft09">The&#160;<i>current colour</i>&#160;to&#160;be used&#160;during painting&#160;operations&#160;(see&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-146.html">8.6, &#34;Colour&#160;Spaces&#34;</a>). The type&#160;and&#160;interpretation&#160;of this&#160;<br/>parameter depend&#160;on&#160;the current&#160;colour&#160;space;&#160;for&#160;most&#160;<br/>colour spaces, a&#160;colour&#160;value&#160;consists&#160;of one to four&#160;<br/>numbers. There&#160;are&#160;two&#160;separate colour parameters: one&#160;for&#160;<br/>stroking and&#160;one for&#160;all other painting operations.&#160;Initial value:&#160;<br/>black.&#160;</p>
+<p style="position:absolute;top:969px;left:164px;white-space:nowrap" class="ft03">text&#160;state</p>
+<p style="position:absolute;top:969px;left:299px;white-space:nowrap" class="ft03">(various)</p>
+<p style="position:absolute;top:969px;left:416px;white-space:nowrap" class="ft09">A set of&#160;nine&#160;graphics state parameters that pertain only to&#160;<br/>the painting&#160;of text.&#160;These include&#160;parameters that&#160;select the&#160;<br/>font,&#160;scale&#160;the glyphs&#160;to an&#160;appropriate size,&#160;and accomplish&#160;<br/>other effects. The text state parameters are described in&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-251.html">9.3,</a>&#160;<br/><a href="src/../output/5eb00ae79d25b/PDF32000_2008-251.html">&#34;Text State Parameters&#160;and Operators&#34;.&#160;</a></p>
+<p style="position:absolute;top:1061px;left:164px;white-space:nowrap" class="ft03">line&#160;width</p>
+<p style="position:absolute;top:1061px;left:299px;white-space:nowrap" class="ft03">number</p>
+<p style="position:absolute;top:1061px;left:416px;white-space:nowrap" class="ft09">The thickness,&#160;in user space&#160;units, of paths to be stroked&#160;<br/>(see&#160;<a href="src/../output/5eb00ae79d25b/PDF32000_2008-133.html">8.4.3.2, &#34;Line&#160;Width&#34;</a>).&#160;Initial&#160;value:&#160;1.0.&#160;</p>
+</div>
+</body>
+</html>
